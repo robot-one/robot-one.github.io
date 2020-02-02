@@ -1,3 +1,5 @@
 baseURL = "htts://robot-one.tk"
-languageCode = "en-us"
+languageCode = "en-gb"
 title = "Of Machines and Men"
+theme = "hugo-academic"
+publishDir = "../robot-one.github.io"

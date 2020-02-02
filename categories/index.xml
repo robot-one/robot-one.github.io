@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | Of Machines and Men</title>
+    <link>https://robot-one.tk/categories/</link>
+      <atom:link href="https://robot-one.tk/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright `©` `2020` Darren J. de Lima. All rights reserved. Opinions my own.</copyright><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Categories</title>
+      <link>https://robot-one.tk/categories/</link>
+    </image>
+    
+    <item>
+      <title>Demo</title>
+      <link>https://robot-one.tk/categories/demo/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://robot-one.tk/categories/demo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

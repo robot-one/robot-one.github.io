@@ -1,0 +1,3 @@
+[submodule "hugo-academic"]
+	path = hugo-academic
+	url = git@github.com:robot-one/hugo-academic.git

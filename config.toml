@@ -2,6 +2,7 @@ baseURL = 'http://robot-one.tk/'
 languageCode = 'en-gb'
 title = 'Of Machines and Men'
 theme = 'dream'
+publishDir = 'docs'
 
 [params]
   background = "#fff"

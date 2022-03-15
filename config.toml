@@ -58,6 +58,9 @@ publishDir = 'docs'
   collapsibleTags = true
   topTags = true
   # collapseBySummary = true
+  
+  [params.advanced]
+    customCSS = ["css/custom.css"] # files in the list will be loaded in order
 
 # for Search to work
 [outputs]

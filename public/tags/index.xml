@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Of Machines and Men</title>
+    <link>http://robot-one.tk/tags/</link>
+    <description>Recent content in Tags on Of Machines and Men</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 15 Mar 2022 03:25:00 +0000</lastBuildDate><atom:link href="http://robot-one.tk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Journal</title>
+      <link>http://robot-one.tk/tags/journal/</link>
+      <pubDate>Tue, 15 Mar 2022 03:25:00 +0000</pubDate>
+      
+      <guid>http://robot-one.tk/tags/journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plans</title>
+      <link>http://robot-one.tk/tags/plans/</link>
+      <pubDate>Tue, 15 Mar 2022 03:25:00 +0000</pubDate>
+      
+      <guid>http://robot-one.tk/tags/plans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>http://robot-one.tk/tags/test/</link>
+      <pubDate>Tue, 15 Mar 2022 03:25:00 +0000</pubDate>
+      
+      <guid>http://robot-one.tk/tags/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,61 @@
+baseURL = 'http://robot-one.tk/'
+languageCode = 'en-gb'
+title = 'Of Machines and Men'
+theme = 'dream'
+
+[params]
+  background = "#fff"
+  backgroundImage = "/img/background.jpg"
+  linkColor = "seagreen"
+
+  # dark mode
+  # defaultDark = true
+  backgroundDark = "black"
+  backgroundImageDark = "/img/background-dark.jpg"
+  darkLinkColor = "darkseagreen"
+  # darkNav = true
+  # dark404 = true
+
+  images = [""]
+
+  author = "Darthagnon"
+  description = "Handcrafted heroes and legends by Darthagnon"
+  avatar = "/img/authors/Darthagnon.jpg"
+  headerTitle = "Of Machines and Men"
+  motto = "Handcrafted heroes and legends"
+  # maxTags = 5
+
+  footerBottomText = "Site is a work-in-progress"
+
+  rss = true
+
+  # socials
+  email = "robot@gmail.com"
+  twitter = "DJdeLima"
+  facebook = "darren.delima.5"
+  instagram = "darthagnon"
+  # mastodon = ""
+  linkedin = "darrendelima"
+  github = "darthagnon"
+  stackoverflow = "12589363/darth-agnon"
+
+  siteStartYear = 2016
+
+  favicon = "/favicon.ico"
+
+  # search
+  enableSearch = true
+
+  # options
+  showSummaryCoverInPost = true
+  # hasTwitterEmbed = true
+  # reversePostAndAside = true
+  # shareInAside = true
+  fixedNav = true
+  collapsibleTags = true
+  topTags = true
+  # collapseBySummary = true
+
+# for Search to work
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

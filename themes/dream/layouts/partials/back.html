@@ -1,0 +1,37 @@
+{{ partial "header.html" . }}
+
+<div class="ui relaxed grid dream-grid dream-back">
+  {{ $headless := .Site.GetPage "/about" }}
+  {{ $aboutPages := $headless.Resources.ByType "page" }}
+  {{ range $aboutPages }}
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">{{ .Title }}</div>
+      {{ .Content | emojify }}
+    </article>
+  </div>
+  {{ end }}
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment">
+      <div class="ui medium header">{{ i18n "socialLinks" }}</div>
+      {{ partial "socials.html" (dict "Site" .Site "IconSize" "large") }}
+    </article>
+  </div>
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    {{ if .Site.Copyright }}
+    <article class="ui segment">
+      {{ .Site.Copyright | safeHTML }}
+    </article>
+    {{ end }}
+  </div>
+
+  {{ if and .Site.DisqusShortname .IsHome }}
+  <div class="sixteen wide mobile eight wide tablet eight wide computer column dream-column">
+    <article class="ui segment">
+      {{ partial "disqus.html" (dict "Context" . "Identifier" "/") }}
+    </article>
+  </div>
+  {{ end }}
+</div>

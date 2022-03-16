@@ -1,4 +1,4 @@
-baseURL = 'http://robot-one.tk/'
+baseURL = 'http://robot-one.github.io/'
 languageCode = 'en-gb'
 title = 'Of Machines and Men'
 theme = 'dream'

@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://robot-one.tk/categories/</loc>
+    <loc>http://robot-one.github.io/categories/</loc>
     <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url><url>
-    <loc>http://robot-one.tk/posts/hello-world/</loc>
+    <loc>http://robot-one.github.io/posts/hello-world/</loc>
     <lastmod>2022-03-15T06:14:00+00:00</lastmod>
   </url><url>
-    <loc>http://robot-one.tk/tags/journal/</loc>
+    <loc>http://robot-one.github.io/tags/journal/</loc>
     <lastmod>2022-03-15T06:14:00+00:00</lastmod>
   </url><url>
-    <loc>http://robot-one.tk/categories/legacy/</loc>
+    <loc>http://robot-one.github.io/categories/legacy/</loc>
     <lastmod>2022-03-15T06:14:00+00:00</lastmod>
   </url><url>
-    <loc>http://robot-one.tk/</loc>
+    <loc>http://robot-one.github.io/</loc>
     <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url><url>
-    <loc>http://robot-one.tk/tags/plans/</loc>
+    <loc>http://robot-one.github.io/tags/plans/</loc>
     <lastmod>2022-03-15T06:14:00+00:00</lastmod>
   </url><url>
-    <loc>http://robot-one.tk/posts/</loc>
+    <loc>http://robot-one.github.io/posts/</loc>
     <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url><url>
-    <loc>http://robot-one.tk/tags/</loc>
+    <loc>http://robot-one.github.io/tags/</loc>
     <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url><url>
-    <loc>http://robot-one.tk/tags/test/</loc>
+    <loc>http://robot-one.github.io/tags/test/</loc>
     <lastmod>2022-03-15T06:14:00+00:00</lastmod>
   </url><url>
-    <loc>http://robot-one.tk/posts/still-ongoing/</loc>
+    <loc>http://robot-one.github.io/posts/still-ongoing/</loc>
     <lastmod>2022-03-15T03:01:09+00:00</lastmod>
   </url><url>
-    <loc>http://robot-one.tk/posts/zero-hour/</loc>
+    <loc>http://robot-one.github.io/posts/zero-hour/</loc>
     <lastmod>2022-03-15T02:49:58+00:00</lastmod>
   </url><url>
-    <loc>http://robot-one.tk/tags/poetry/</loc>
+    <loc>http://robot-one.github.io/tags/poetry/</loc>
     <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url><url>
-    <loc>http://robot-one.tk/tags/robotone/</loc>
+    <loc>http://robot-one.github.io/tags/robotone/</loc>
     <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url><url>
-    <loc>http://robot-one.tk/categories/stories/</loc>
+    <loc>http://robot-one.github.io/categories/stories/</loc>
     <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url><url>
-    <loc>http://robot-one.tk/posts/story/</loc>
+    <loc>http://robot-one.github.io/posts/story/</loc>
     <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url><url>
-    <loc>http://robot-one.tk/tags/todo/</loc>
+    <loc>http://robot-one.github.io/tags/todo/</loc>
     <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url>
 </urlset>

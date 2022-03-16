@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Of Machines and Men</title>
-    <link>http://robot-one.tk/tags/</link>
+    <link>http://robot-one.github.io/tags/</link>
     <description>Recent content in Tags on Of Machines and Men</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 15 Mar 2022 03:25:00 +0000</lastBuildDate><atom:link href="http://robot-one.tk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Mar 2022 03:25:00 +0000</lastBuildDate><atom:link href="http://robot-one.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Journal</title>
-      <link>http://robot-one.tk/tags/journal/</link>
+      <link>http://robot-one.github.io/tags/journal/</link>
       <pubDate>Tue, 15 Mar 2022 03:25:00 +0000</pubDate>
       
-      <guid>http://robot-one.tk/tags/journal/</guid>
+      <guid>http://robot-one.github.io/tags/journal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plans</title>
-      <link>http://robot-one.tk/tags/plans/</link>
+      <link>http://robot-one.github.io/tags/plans/</link>
       <pubDate>Tue, 15 Mar 2022 03:25:00 +0000</pubDate>
       
-      <guid>http://robot-one.tk/tags/plans/</guid>
+      <guid>http://robot-one.github.io/tags/plans/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>http://robot-one.tk/tags/test/</link>
+      <link>http://robot-one.github.io/tags/test/</link>
       <pubDate>Tue, 15 Mar 2022 03:25:00 +0000</pubDate>
       
-      <guid>http://robot-one.tk/tags/test/</guid>
+      <guid>http://robot-one.github.io/tags/test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Poetry</title>
-      <link>http://robot-one.tk/tags/poetry/</link>
+      <link>http://robot-one.github.io/tags/poetry/</link>
       <pubDate>Sun, 29 May 2016 00:00:07 +0000</pubDate>
       
-      <guid>http://robot-one.tk/tags/poetry/</guid>
+      <guid>http://robot-one.github.io/tags/poetry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>RobotOne</title>
-      <link>http://robot-one.tk/tags/robotone/</link>
+      <link>http://robot-one.github.io/tags/robotone/</link>
       <pubDate>Sun, 29 May 2016 00:00:07 +0000</pubDate>
       
-      <guid>http://robot-one.tk/tags/robotone/</guid>
+      <guid>http://robot-one.github.io/tags/robotone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TODO</title>
-      <link>http://robot-one.tk/tags/todo/</link>
+      <link>http://robot-one.github.io/tags/todo/</link>
       <pubDate>Sun, 29 May 2016 00:00:07 +0000</pubDate>
       
-      <guid>http://robot-one.tk/tags/todo/</guid>
+      <guid>http://robot-one.github.io/tags/todo/</guid>
       <description></description>
     </item>
     

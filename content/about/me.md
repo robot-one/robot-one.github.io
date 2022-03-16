@@ -12,4 +12,5 @@ This is my blog and technical portfolio, where I seek to inform, entertain, and 
 ## What's with the username?
 I like to go by the Sith version of the 4th Musketeer, D'Artagnan. 
 
-Questions? Comments? You can reach me on the social media linked.
+## Contact
+Questions? Comments? You can reach me on the social media linked. Feel free to drop me a message. I'll try to get back to you shortly.

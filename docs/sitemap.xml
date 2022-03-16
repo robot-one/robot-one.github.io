@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://robot-one.tk/categories/</loc>
-    <lastmod>2022-03-15T06:14:00+00:00</lastmod>
+    <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url><url>
     <loc>http://robot-one.tk/posts/hello-world/</loc>
     <lastmod>2022-03-15T06:14:00+00:00</lastmod>
@@ -15,16 +15,16 @@
     <lastmod>2022-03-15T06:14:00+00:00</lastmod>
   </url><url>
     <loc>http://robot-one.tk/</loc>
-    <lastmod>2022-03-15T06:14:00+00:00</lastmod>
+    <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url><url>
     <loc>http://robot-one.tk/tags/plans/</loc>
     <lastmod>2022-03-15T06:14:00+00:00</lastmod>
   </url><url>
     <loc>http://robot-one.tk/posts/</loc>
-    <lastmod>2022-03-15T06:14:00+00:00</lastmod>
+    <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url><url>
     <loc>http://robot-one.tk/tags/</loc>
-    <lastmod>2022-03-15T06:14:00+00:00</lastmod>
+    <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url><url>
     <loc>http://robot-one.tk/tags/test/</loc>
     <lastmod>2022-03-15T06:14:00+00:00</lastmod>
@@ -34,5 +34,20 @@
   </url><url>
     <loc>http://robot-one.tk/posts/zero-hour/</loc>
     <lastmod>2022-03-15T02:49:58+00:00</lastmod>
+  </url><url>
+    <loc>http://robot-one.tk/tags/poetry/</loc>
+    <lastmod>2022-03-16T01:18:00+00:00</lastmod>
+  </url><url>
+    <loc>http://robot-one.tk/tags/robotone/</loc>
+    <lastmod>2022-03-16T01:18:00+00:00</lastmod>
+  </url><url>
+    <loc>http://robot-one.tk/categories/stories/</loc>
+    <lastmod>2022-03-16T01:18:00+00:00</lastmod>
+  </url><url>
+    <loc>http://robot-one.tk/posts/story/</loc>
+    <lastmod>2022-03-16T01:18:00+00:00</lastmod>
+  </url><url>
+    <loc>http://robot-one.tk/tags/todo/</loc>
+    <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url>
 </urlset>

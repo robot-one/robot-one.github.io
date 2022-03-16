@@ -34,5 +34,32 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Poetry</title>
+      <link>http://robot-one.tk/tags/poetry/</link>
+      <pubDate>Sun, 29 May 2016 00:00:07 +0000</pubDate>
+      
+      <guid>http://robot-one.tk/tags/poetry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RobotOne</title>
+      <link>http://robot-one.tk/tags/robotone/</link>
+      <pubDate>Sun, 29 May 2016 00:00:07 +0000</pubDate>
+      
+      <guid>http://robot-one.tk/tags/robotone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TODO</title>
+      <link>http://robot-one.tk/tags/todo/</link>
+      <pubDate>Sun, 29 May 2016 00:00:07 +0000</pubDate>
+      
+      <guid>http://robot-one.tk/tags/todo/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

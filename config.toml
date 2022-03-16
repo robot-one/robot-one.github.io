@@ -23,7 +23,8 @@ publishDir = 'docs'
 
   author = "Darthagnon"
   description = "Handcrafted heroes and legends by Darthagnon"
-  avatar = "/img/authors/Darthagnon.jpg"
+  avatar = "/img/RobotOne.png"
+  roundAvatar = false
   headerTitle = "Of Machines and Men"
   motto = "Handcrafted heroes and legends"
   # maxTags = 5

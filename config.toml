@@ -4,6 +4,9 @@ title = 'Of Machines and Men'
 theme = 'dream'
 publishDir = 'docs'
 
+[markup.goldmark.renderer] 
+unsafe = true 
+
 # copyright = ""
 
 [params]

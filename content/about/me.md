@@ -5,6 +5,8 @@ lastmod: 2022-03-16T01:32:00Z
 draft: false
 ---
 
+<img src="img/authors/Darthagnon.jpg" alt="Avatar, admin Darthagnon" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;" height="180">
+
 Hello! The site admin is Darthagnon.
 
 This is my blog and technical portfolio, where I seek to inform, entertain, and share my handicrafts and knowledge with you.

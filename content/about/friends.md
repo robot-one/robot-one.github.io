@@ -1,7 +1,7 @@
 ---
 title: Friends
 date: 2022-03-15T03:25:00
-lastmod: 2022-03-15T03:25:00
+lastmod: 2022-03-22T23:40:00
 draft: false
 ---
 

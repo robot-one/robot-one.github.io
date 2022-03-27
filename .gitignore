@@ -1,3 +1,40 @@
+# General
 .hugo_build.lock
+
+
+# Windows Thumbnails
 Thumbs.db
+
+
+# Windows folder config file
+
+Desktop.ini
+
+
+
+# Windows Recycle Bin used on file shares
+
+$RECYCLE.BIN/
+
+
+
+# Windows Installer files
+
+*.cab
+
+*.msi
+
+*.msm
+
+*.msp
+
+
+
+# Windows shortcuts
+
+*.lnk
+
+
+
+# Mac
 .DS_Store

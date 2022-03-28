@@ -5,7 +5,7 @@ lastmod: 2022-03-22T23:40:00Z
 draft: false
 ---
 
-<img src="img/authors/Darthagnon.jpg" alt="Avatar, admin Darthagnon" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;" height="180">
+<img src="/img/authors/Darthagnon.jpg" alt="Avatar, admin Darthagnon" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;" height="180">
 
 Hello! The site admin is Darthagnon.
 

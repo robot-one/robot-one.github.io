@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Poetry on Of Machines and Men</title>
-    <link>http://robot-one.github.io/tags/poetry/</link>
+    <link>https://robot-one.github.io/tags/poetry/</link>
     <description>Recent content in Poetry on Of Machines and Men</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 29 May 2016 00:00:07 +0000</lastBuildDate><atom:link href="http://robot-one.github.io/tags/poetry/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 May 2016 00:00:07 +0000</lastBuildDate><atom:link href="https://robot-one.github.io/tags/poetry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Story</title>
-      <link>http://robot-one.github.io/posts/story/</link>
+      <link>https://robot-one.github.io/posts/story/</link>
       <pubDate>Sun, 29 May 2016 00:00:07 +0000</pubDate>
       
-      <guid>http://robot-one.github.io/posts/story/</guid>
+      <guid>https://robot-one.github.io/posts/story/</guid>
       <description>&lt;p&gt;&amp;ldquo;A Tale is told&lt;/p&gt;
 &lt;p&gt;Of Machines and Men,&lt;/p&gt;</description>
     </item>

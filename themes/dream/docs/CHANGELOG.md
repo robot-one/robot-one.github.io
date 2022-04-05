@@ -42,6 +42,46 @@ Please refer to the documentation for details.
 
 If you have other problems, you can also ask in the [issues](https://github.com/g1eny0ung/hugo-theme-dream/issues).
 
+## Next plans
+- compatibility fixes for Internet Explorer, Firefox, iOS safari (the site breaks in all those browsers and loads the About flip page on top of, or just below, the main article selection)
+- performance fixes: scrolling is sometimes juddery, and the navbar doesn't always stick cleanly to the top of the page
+- collapsible "Share" menu in articles, with various socials, to avoid clutter.
+- option to use 2 avatars, one for the main homepage, 1 for the About flip page
+- separate out the flip page into its own separate thing? since it seems to be part of the main page at the moment and loads on top of it when CSS breaks.
+- remove (or make optional) custom scrollbars and jQuery
+- add Photoswipe
+- maybe add [StPageFlip](https://nodlik.github.io/StPageFlip/)???
+- Consolidate i18n into one folder
+- Custom navbar buttons, e.g. to other social media, Etsy/Shopify, etc.
+- siteParam: rounded corners (from `custom.css`) 
+- Linkable headings (similar to index) with hyperlink icon
+
+## [2.9.8] - 2022.04.05
+- Added exampleSite data, including:
+ -  many social network URI schemes
+ -  example graphics
+ -  example favicons in all sizes
+- Improved documentation formatting and grammar
+- i18n: `ar`, `ca`, `de`, `he`, `ja`, `lv`, `ro`, `ru`, `sl` (and deduplication of translation code)
+- opt out of Google FLoC
+- update miscellaneous dependencies
+- Sub-Resource Integrity hashes for all remote content
+- site params:
+ - `CDNJS` - site is now **offline capable**, you can choose to load JS/CSS locally or from a CDN)
+ - `TopTags` - optionally display all buttons in top navbar instead of mixed with tag cloud
+ - `roundAvatar` - choose whether to have a round avatar or unset image to better display custom logos
+ - `OverlayScrollbars` - disable the Mac OS X style scrollbars if you prefer system scrollbars or for compatibility reasons (e.g. Hugo Easy Gallery workarounds)
+ - `textButtons`,`textButtonsMini` - optional text labels on the navbar buttons (and the Archive/Categories/Tags buttons even when they're small), for accessibility improvements.
+ - `rssHeader` - optional "subscribe" RSS button in the navbar; RSS is good and more people should use it!
+- Accessibility improvements (alt tags, NoScript warning)
+- Customisable 404 page text
+- Enable inline html in Markdown files
+- ~~fix SRI hash for imagesloaded js (seems to be called 2x in the code, but I can only find 1x with the correct SRI)~~ EDIT: It was in `layouts\index.html`
+### Work in progress:
+- [WIP] Start implementing PWA service worker and manifest (**v2.9.x**)
+- [WIP] Start implementing [Photoswipe](https://photoswipe.com/) via [Hugo Easy Gallery](https://github.com/liwenyip/hugo-easy-gallery/) in an [unofficial fork](https://github.com/Darthagnon/hugo-easy-gallery) (jQuery-free version!) (**v3.0.0?**)
+- [WIP] update i18n with missing words for the `textButtons`
+- [WIP] Pretty RSS/tag XML that is human-readable via XSL styling; still needs adapting, site avatar, etc. ([Making RSS Pretty, sburke@inerglacial.com](https://interglacial.com/~sburke/stuff/pretty_rss.html), [How to style RSS feed with XSL, Hsiaoming@lepture.com](https://lepture.com/en/2019/rss-style-with-xsl), [Hugo RSS templates](https://gohugo.io/templates/rss/), [Default Hugo RSS](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/rss.xml))
 ## [2.0.0-beta] - 2021.01.31
 
 - New `header` component

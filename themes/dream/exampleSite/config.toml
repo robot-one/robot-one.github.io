@@ -12,6 +12,16 @@ theme = "hugo-theme-dream"
 
 # enableRobotsTXT = true
 
+# recommended for GitHub pages
+publishDir = 'docs'
+
+# enable inline html rendering within Markdown posts
+[markup.goldmark.renderer] 
+unsafe = true 
+
+# ignore stupid error
+ignoreErrors = ["error-missing-instagram-accesstoken"]
+
 [params]
   background = "#f7f7f7"
   # backgroundImage = "/me/background.jpg"
@@ -28,6 +38,7 @@ theme = "hugo-theme-dream"
   author = "Yue Yang"
   # description = ""
   avatar = "/img/avatar.jpeg"
+  # roundAvatar = true
   headerTitle = "Hugo Theme Dream"
   motto = "Motto"
   # maxTags = 5
@@ -36,7 +47,8 @@ theme = "hugo-theme-dream"
 
   # footerBottomText = ""
 
-  # rss = true
+  rss = true
+  # rssHeader = true
 
   # utterancesRepo = ""
 
@@ -45,6 +57,7 @@ theme = "hugo-theme-dream"
   # LEANCLOUD_APP_KEY = ""
   # VALINE_LANGUAGE = ""
 
+  # socials, deprecated - use /data/socials.toml instead
   email = "g1enyy0ung@gmail.com"
   # twitter = ""
   # facebook = ""
@@ -57,8 +70,10 @@ theme = "hugo-theme-dream"
 
   siteStartYear = 2016
 
-  # favicon = "/favicon.ico"
+  favicon = "/favicons/favicon.ico"
 
+  # true: load 3rd-party JS/CSS from CDN; false: load instead from local files
+	CDNJS = false
   # highlightjs = true
   # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
   # highlightjsCDN = "js/3p/highlight.min.js"
@@ -68,6 +83,16 @@ theme = "hugo-theme-dream"
 
   # search
   # enableSearch = true
+  # topTags = true
+  # textButtons = true
+  # textButtonsMini = false
+  
+  # Error 404 Not Found page text
+  error404Header = "Oops...You are lost in dream."
+  error404SubHeader = "Don't worry though, click the button below to wake up."
+  
+  # Enable/Disable Mac OS X style scrollbars - GLITCHY! Recommended false if using PhotoSwipe
+  OverlayScrollbars = true
 
   # options
   # showSummaryCoverInPost = true
@@ -86,3 +111,10 @@ theme = "hugo-theme-dream"
   # [params.experimental]
   #   jsDate = true
   #   jsDateFormat = "yyyy年MM月dd日"
+  
+    [params.advanced]
+    customCSS = ["css/custom.css"] # files in the list will be loaded in order
+  
+  # required for search
+  # [outputs]
+  #   home = ["HTML", "RSS", "JSON"]

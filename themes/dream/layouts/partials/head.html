@@ -5,9 +5,9 @@
 <!-- Site permissions policy: Degoogle: Opt out of Google FLoC, src: https://github.dihe.moe/Donearm/donearm.github.com/commit/31892e66c27c2b0b251185ef5c38b9762703cf36 -->
 <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
 
-<!-- Progressive Web App (PWA)
+<!-- Progressive Web App (PWA) -->
 <link rel="manifest" href="/manifest.json">
-<link rel="serviceworker" href="/sw.html">-->
+<link rel="serviceworker" href="/sw.html">
 
 {{ if eq .Type "posts" }}
 <!-- Page Author & Description -->
@@ -30,13 +30,24 @@
 <!-- Twitter Cards -->
 {{ template "_internal/twitter_cards.html" . }}
 
-<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" integrity="sha256-UXesixbeLkB/UYxVTzuj/gg3+LMzgwAmg3zD+C4ZASQ=" crossorigin="anonymous">-->
-<link rel="stylesheet" href="{{ "/css/3p/semantic.min@2.4.2.css" | relURL }}" />
+{{ if .Site.Params.CDNJS }}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" integrity="sha256-UXesixbeLkB/UYxVTzuj/gg3+LMzgwAmg3zD+C4ZASQ=" crossorigin="anonymous">
+{{- else -}}
+  <link rel="stylesheet" href="{{ "/css/3p/semantic.min@2.4.2.css" | relURL }}" />
+{{ end }}
 <link rel="stylesheet" href="{{ "/css/icomoon.css" | relURL }}" />
-<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/overlayscrollbars@1.13.1/css/OverlayScrollbars.min.css" integrity="sha256-WKijf8KI68sbq8Znd6yMepIuFF0wdWfIt6gk3JWcQfk=" crossorigin="anonymous">-->
-<link rel="stylesheet" href="{{ "/css/3p/OverlayScrollbars.min@1.13.0.css" | relURL }}" />
-<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" integrity="sha256-1OR6V77ZEwFz6LcdRjvwt/FYAfQk/VGKTpHwmvAFHsk=" crossorigin="anonymous">-->
-<link rel="stylesheet" href="{{ "/css/3p/github-markdown.min@4.0.0.css" | relURL }}" />
+{{ if .Site.Params.OverlayScrollbars }}
+  {{ if .Site.Params.CDNJS }}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/overlayscrollbars@1.13.1/css/OverlayScrollbars.min.css" integrity="sha256-WKijf8KI68sbq8Znd6yMepIuFF0wdWfIt6gk3JWcQfk=" crossorigin="anonymous">
+  {{- else -}}
+    <link rel="stylesheet" href="{{ "/css/3p/OverlayScrollbars.min@1.13.0.css" | relURL }}" />
+  {{ end }}
+{{ end }}
+{{ if .Site.Params.CDNJS }}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" integrity="sha256-1OR6V77ZEwFz6LcdRjvwt/FYAfQk/VGKTpHwmvAFHsk=" crossorigin="anonymous">
+{{- else -}}
+  <link rel="stylesheet" href="{{ "/css/3p/github-markdown.min@4.0.0.css" | relURL }}" />
+{{ end }}
 <link rel="stylesheet" href="{{ "/css/site.css" | relURL }}" />
 
 <style>

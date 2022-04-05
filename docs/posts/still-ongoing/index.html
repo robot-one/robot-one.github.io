@@ -363,6 +363,57 @@
   
   <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
     <article class="ui segment markdown-body">
+      <div class="ui medium header">Guest Authors</div>
+      <p>Friends of mine are welcome to contribute their knowledge to the site! Here&rsquo;s a list of those who have contributed:</p>
+<table>
+<thead>
+<tr>
+<th>Avatar</th>
+<th>Username</th>
+<th>Bio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/img/authors/Ionicannon.jpg" alt="Avatar, guest Ionicannon" style="border-radius: 50%; display: block;"></td>
+<td>Ionicannon</td>
+<td>My niece, with an Eastern European connection and a growing interest in literature and art.</td>
+</tr>
+</tbody>
+</table>
+
+    </article>
+  </div>
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">LAN</div>
+      <p>Chances are if we are on the same Local Area Network (LAN), I&rsquo;m serving something. For your convenience, here are the services you can access (you&rsquo;ll have to ask me for the passwords in person; no way I&rsquo;m putting them in cleartext on the web):</p>
+<h2 id="my-lan">My LAN</h2>
+<p>These are served from my Raspberry Pi homeserver, and currently only accessible on my home network.</p>
+<ul>
+<li><a href="http://raspberrypi:8080/">qBittorrent server</a> - a torrent client with which we can remotely download public domain media via the Bittorrent, without leaving our PCs on for hours. <a href="https://www.qbittorrent.org/download.php">Homepage</a></li>
+<li><a href="http://raspberrypi:8081/">filebrowser</a> - access downloaded torrents or files stored on the homeserver&rsquo;s Network Attached Storage (NAS) via any web browser. Looks like Google Drive, but is fully self-hosted. <a href="https://github.com/filebrowser/filebrowser">GitHub Repository</a></li>
+<li><a href="http://raspberrypi:80">Aria2Ng server</a> - Don&rsquo;t feel like leaving your PC on all night for that big download? Remotely download media to the NAS, by torrents and many other protocols, too. <a href="https://github.com/mayswind/AriaNg">GitHub Repository</a></li>
+<li><a href="http://raspberrypi:8082/">WireguardUI</a> - still not fully functional, a frontend for the Wireguard VPN protocol, so that eventually I can host my own VPN. <a href="https://github.com/EmbarkStudios/wg-ui">GitHub Repository</a></li>
+<li><a href="http://raspberrypi:81/">AdGuard Home</a> - <strong>[Currently Disabled]</strong> Network-wide ad blocker and DNS server. Not something the end user needs to worry about, save that they won&rsquo;t see advertising. <a href="https://github.com/AdguardTeam/AdGuardHome">GitHub Repository</a></li>
+<li><a href="http://raspberrypi:8083/">Navidrome</a> - <strong>[Currently Disabled]</strong> Spotify replacement, but fully self-hosted with my own music. <a href="https://www.navidrome.org/">Homepage</a></li>
+<li>Samba (SMB) access to the 500GB NAS is also enabled. You can access it from <code>Windows Explorer &gt;&gt; My Computer (This PC) &gt;&gt; Add a network location</code> or the equivalent on MacOS/iOS/Linux/Android.</li>
+<li>SSH (command line) and SFTP (filesystem) access are also enabled, accessible via the appropriate clients, e.g. [WinSCP]</li>
+</ul>
+<h2 id="your-lan">Your LAN</h2>
+<p>These are served from my PC, and you can access them as long as we&rsquo;re both connected.</p>
+<ul>
+<li><a href="http://vortigern:80">Cerberus FTP Server</a> - file server.</li>
+<li><a href="https://lanxchange.com/">LanXChange</a> - Apple Airdrop alternative. We can both run the clients and share individual files easily between PC, Mac, Linux, Android.</li>
+<li><a href="http://vortigern:8081">filebrowser</a> - I also occasionally run filebrowser to turn my PC into a &ldquo;Google Drive&rdquo;.</li>
+</ul>
+
+    </article>
+  </div>
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
       <div class="ui medium header">WHOIS running this site?</div>
       <img src="/img/authors/Darthagnon.jpg" alt="Avatar, admin Darthagnon" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;" height="180">
 <p>Hello! The site admin is Darthagnon.</p>
@@ -372,7 +423,7 @@
 <h2 id="contact">Contact</h2>
 <p>Questions? Comments? You can reach me on the social media linked. Feel free to drop me a message. I&rsquo;ll try to get back to you shortly. <strong>To prevent spam, I have added [square brackets] to some of my socials; if you&rsquo;re not a robot, you can click the links and remove the [brackets].</strong></p>
 <h2 id="src">src</h2>
-<p>Site source code is available on <a href="https://github.com/robot-one/robot-one.github.io">GitHub</a>, as well as offline backups on my home systems. Snapshots are also available on <a href="https://web.archive.org/web/*/robot-one.github.io">Archive.org</a> and <a href="https://archive.today/3lBgJ">Archive.today</a></p>
+<p>Site source code is available on <a href="https://github.com/robot-one/robot-one.github.io">GitHub</a>, as well as offline backups on my home systems. Snapshots are also available on <a href="https://web.archive.org/web/*/robot-one.github.io">Archive.org</a> and <a href="https://archive.today/3lBgJ">Archive.today</a>. The site uses 2 themes, <a href="https://github.com/Darthagnon/hugo-theme-dream">Hugo Theme Dream</a> and <a href="https://github.com/Darthagnon/hugo-easy-gallery">Hugo Easy Gallery</a>, and is built with the <a href="https://gohugo.io/">Hugo</a> static site generator.</p>
 
     </article>
   </div>

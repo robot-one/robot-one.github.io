@@ -2,16 +2,30 @@ baseURL = 'https://robot-one.github.io/'
 languageCode = 'en-gb'
 title = 'Of Machines and Men'
 theme = 'dream'
+defaultContentLanguage = "en"
+
+# copyright = ""
+
+# googleAnalytics = ""
+
+# disqusShortname = ""
+
+# enableRobotsTXT = true
+
+# recommended for GitHub pages
 publishDir = 'docs'
 
+# enable inline html rendering within Markdown posts
 [markup.goldmark.renderer] 
 unsafe = true 
 
 # copyright = ""
+# ignore stupid error
+ignoreErrors = ["error-missing-instagram-accesstoken"]
 
 [params]
-  background = "#fff"
   backgroundImage = "/img/background.jpg"
+  background = "#f7f7f7"
   linkColor = "seagreen"
 
   # dark mode
@@ -30,28 +44,60 @@ unsafe = true
   roundAvatar = false
   headerTitle = "Of Machines and Men"
   motto = "Handcrafted heroes and legends"
+  # roundAvatar = true
   # maxTags = 5
+  # categoriesLimitInHeader = 6 # deprecated
+  # headerBottomText = "" # deprecated
 
   footerBottomText = "Site is a work-in-progress"
 
   rss = true
+  # rssHeader = true
 
   # socials
   #email = "robot@gmail.com"
   #twitter = "DJdeLima"
   #facebook = "darren.delima.5"
   #instagram = "darthagnon"
+  # utterancesRepo = ""
+
+  # valine = true
+  # LEANCLOUD_APP_ID = ""
+  # LEANCLOUD_APP_KEY = ""
+  # VALINE_LANGUAGE = ""
+
+  # socials, deprecated - use /data/socials.toml instead
   # mastodon = ""
   #linkedin = "darrendelima"
   #github = "darthagnon"
   #stackoverflow = "12589363/darth-agnon"
+  # codepen = ""
 
   siteStartYear = 2016
 
   favicon = "/favicons/favicon.ico"
 
+  # true: load 3rd-party JS/CSS from CDN; false: load instead from local files
+	CDNJS = false
+  # highlightjs = true
+  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  # highlightjsCDN = "js/3p/highlight.min.js"
+  # highlightjsExtraLanguages = ["ocaml"]
+  # highlightjsTheme = "gruvbox-light"
+  # highlightjsThemeDark = "gruvbox-dark"
+
   # search
   enableSearch = true
+  # topTags = true
+  # textButtons = true
+  # textButtonsMini = false
+  
+  # Error 404 Not Found page text
+  error404Header = "Oops...You are lost in dream."
+  error404SubHeader = "Don't worry though, click the button below to wake up."
+  
+  # Enable/Disable Mac OS X style scrollbars - GLITCHY! Recommended false if using PhotoSwipe
+  OverlayScrollbars = true
 
   # options
   showSummaryCoverInPost = true
@@ -60,8 +106,16 @@ unsafe = true
   # shareInAside = true
   fixedNav = true
   collapsibleTags = true
-  topTags = true
   # collapseBySummary = true
+
+  # [params.advanced]
+  #   customCSS = ["css/custom.css"]
+  #   customJSBefore = []
+  #   customJS = []
+
+  # [params.experimental]
+  #   jsDate = true
+  #   jsDateFormat = "yyyy年MM月dd日"
   
   [params.advanced]
     customCSS = ["css/custom.css"] # files in the list will be loaded in order

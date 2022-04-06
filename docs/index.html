@@ -14,6 +14,8 @@
 <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
 
 
+<link rel="manifest" href="/manifest.json">
+<link rel="serviceworker" href="/sw.html">
 
 
 
@@ -42,13 +44,12 @@
 <meta name="twitter:description" content="Handcrafted heroes and legends by Darthagnon"/>
 
 
-
 <link rel="stylesheet" href="/css/3p/semantic.min@2.4.2.css" />
+
 <link rel="stylesheet" href="/css/icomoon.css" />
 
-<link rel="stylesheet" href="/css/3p/OverlayScrollbars.min@1.13.0.css" />
-
 <link rel="stylesheet" href="/css/3p/github-markdown.min@4.0.0.css" />
+
 <link rel="stylesheet" href="/css/site.css" />
 
 <style>
@@ -71,7 +72,7 @@
   
   body.default {
     
-    background-color: #fff;
+    background-color: #f7f7f7;
     
 
     
@@ -105,34 +106,65 @@
     
 <nav class="ui secondary menu dream-menu dream-nav">
 
-  <a class="item dream-flip-toggle" title="Flip it!">
+  <a class="item dream-flip-toggle" title="About" alt="About">
     <i class="large link question circle icon"></i>
+    
+    &nbsp;&nbsp;About
+    
   </a>
-  <a class="item" href="https://robot-one.github.io/" title="Home">
+  <a class="item" href="https://robot-one.github.io/" title="Home" alt="Home">
     <i class="large link home icon"></i>
+      
+      <div id="bigscreen">
+      &nbsp;&nbsp;Home
+      </div>
+      
   </a>
   
   <a class="item" onclick="themeSwitch(event)">
     <i class="large link icon theme-switch"></i>
+    
+    &nbsp;&nbsp;Theme
+    
   </a>
   
   
-  <a class="item" title="Search" onclick="toggleSearch(event)">
+  <a class="item" title="Search" alt="Search" onclick="toggleSearch(event)">
     <i class="large link search icon"></i>
+    
+    &nbsp;&nbsp;Search
+    
   </a>
   
   
       
       <a class="item" href="/posts">
-        <i class="large archive icon" title="Archives"></i>
+        <i class="large archive icon" title="Archives" alt="Archives"></i>
+        
+        &nbsp;&nbsp;Archives
+        
       </a>
       
       <a class="item" href="/categories">
-        <i class="large th list icon" title="All Categories"></i>
+        <i class="large th list icon" title="Categories" alt="Categories"></i>
+        
+        &nbsp;&nbsp;Categories
+        
       </a>
       <a class="item" href="/tags">
-        <i class="large tags icon" title="All Tags"></i>
+        <i class="large tags icon" title="Tags" alt="Tags"></i>
+        
+        &nbsp;&nbsp;Tags
+        
       </a>
+  
+  
+  <a class="item" href="/index.xml" title="Subscribe!" alt="Subscribe!">
+    <i class="large link rss icon"></i>
+    
+    &nbsp;&nbsp;Subscribe!
+    
+  </a>
   
   
 </nav>
@@ -779,10 +811,10 @@
       </div>
     </div>
 
+    <script src="/js/3p/jquery.min@3.6.0.js"></script>
     
-	<script src="/js/3p/jquery.min@3.6.0.js"></script>
+    <script src="/js/3p/semantic.min@2.4.2.js"></script>
     
-	<script src="/js/3p/semantic.min@2.4.2.js"></script>
 
     
     <div class="ui segment" id="dream-search">
@@ -811,7 +843,7 @@
     
 
     <script>
-  window.background = "#fff"
+  window.background = "#f7f7f7"
   window.defaultDark =  null 
   window.backgroundDark = "black"
   window.backgroundImageDark = "/img/background-dark.jpg"
@@ -841,20 +873,19 @@
     })(document, 'script', 'twitter-wjs')
   }
 </script>
+<script src="/js/main2.js"></script>
 
-<script src="/js/3p/jquery.overlayScrollbars.min@1.13.1.js"></script>
 <script src="/js/header.js"></script>
-<script src="/js/main.js"></script>
 <script src="/js/theme.js"></script>
 
     
 
 
 
-
 <script src="/js/3p/imagesloaded.pkgd.min@4.1.4.js"></script>
 
 <script src="/js/3p/masonry.pkgd.min@4.2.2.js"></script>
+
 <script src="/js/grid.js"></script>
 
 

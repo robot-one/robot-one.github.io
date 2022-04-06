@@ -94,7 +94,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   error404SubHeader = "Don't worry though, click the button below to wake up."
   
   # Enable/Disable Mac OS X style scrollbars - GLITCHY! Recommended false if using PhotoSwipe
-  OverlayScrollbars = false
+  OverlayScrollbars = true
 
   # options
   showSummaryCoverInPost = true

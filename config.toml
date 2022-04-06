@@ -1,15 +1,13 @@
 baseURL = 'https://robot-one.github.io/'
 languageCode = 'en-gb'
+defaultContentLanguage = "en"
 title = 'Of Machines and Men'
 theme = 'dream'
-defaultContentLanguage = "en"
+
 
 # copyright = ""
-
 # googleAnalytics = ""
-
 # disqusShortname = ""
-
 # enableRobotsTXT = true
 
 # recommended for GitHub pages
@@ -44,7 +42,6 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   roundAvatar = false
   headerTitle = "Of Machines and Men"
   motto = "Handcrafted heroes and legends"
-  # roundAvatar = true
   # maxTags = 5
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
@@ -52,13 +49,13 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   footerBottomText = "Site is a work-in-progress"
 
   rss = true
-  # rssHeader = true
+  rssHeader = true
 
   # socials
-  #email = "robot@gmail.com"
-  #twitter = "DJdeLima"
-  #facebook = "darren.delima.5"
-  #instagram = "darthagnon"
+  # email = "robot@gmail.com"
+  # twitter = "DJdeLima"
+  # facebook = "darren.delima.5"
+  # instagram = "darthagnon"
   # utterancesRepo = ""
 
   # valine = true
@@ -68,9 +65,9 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
 
   # socials, deprecated - use /data/socials.toml instead
   # mastodon = ""
-  #linkedin = "darrendelima"
-  #github = "darthagnon"
-  #stackoverflow = "12589363/darth-agnon"
+  # linkedin = "darrendelima"
+  # github = "darthagnon"
+  # stackoverflow = "12589363/darth-agnon"
   # codepen = ""
 
   siteStartYear = 2016
@@ -88,8 +85,8 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
 
   # search
   enableSearch = true
-  # topTags = true
-  # textButtons = true
+  topTags = true
+  textButtons = true
   # textButtonsMini = false
   
   # Error 404 Not Found page text
@@ -97,7 +94,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   error404SubHeader = "Don't worry though, click the button below to wake up."
   
   # Enable/Disable Mac OS X style scrollbars - GLITCHY! Recommended false if using PhotoSwipe
-  OverlayScrollbars = true
+  OverlayScrollbars = false
 
   # options
   showSummaryCoverInPost = true
@@ -108,8 +105,8 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   collapsibleTags = true
   # collapseBySummary = true
 
-  # [params.advanced]
-  #   customCSS = ["css/custom.css"]
+  [params.advanced]
+    customCSS = ["css/custom.css"] # files in the list will be loaded in order
   #   customJSBefore = []
   #   customJS = []
 
@@ -117,9 +114,8 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   #   jsDate = true
   #   jsDateFormat = "yyyy年MM月dd日"
   
-  [params.advanced]
-    customCSS = ["css/custom.css"] # files in the list will be loaded in order
 
-# for Search to work
+
+# required for Search to work
 [outputs]
   home = ["HTML", "RSS", "JSON"]

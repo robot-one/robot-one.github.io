@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://robot-one.github.io/categories/</loc>
+    <lastmod>2022-05-25T06:09:06+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/journal/</loc>
+    <lastmod>2022-05-25T06:09:06+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/literature/</loc>
+    <lastmod>2022-05-25T06:09:06+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/categories/multimedia/</loc>
+    <lastmod>2022-05-25T06:09:06+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/music/</loc>
+    <lastmod>2022-05-25T06:09:06+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/news/</loc>
+    <lastmod>2022-05-25T06:09:06+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/</loc>
+    <lastmod>2022-05-25T06:09:06+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/plans/</loc>
+    <lastmod>2022-05-25T06:09:06+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/posts/</loc>
+    <lastmod>2022-05-25T06:09:06+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/</loc>
+    <lastmod>2022-05-25T06:09:06+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/todo/</loc>
+    <lastmod>2022-05-25T06:09:06+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/posts/work-05-2022/</loc>
+    <lastmod>2022-05-25T06:09:06+01:00</lastmod>
+  </url><url>
     <loc>https://robot-one.github.io/tags/art/</loc>
     <lastmod>2022-03-27T18:49:11+01:00</lastmod>
   </url><url>
@@ -11,19 +47,7 @@
     <loc>https://robot-one.github.io/posts/cactus-the-green-hedgehog/</loc>
     <lastmod>2022-03-27T18:49:11+01:00</lastmod>
   </url><url>
-    <loc>https://robot-one.github.io/categories/</loc>
-    <lastmod>2022-03-27T18:49:11+01:00</lastmod>
-  </url><url>
     <loc>https://robot-one.github.io/tags/child-education/</loc>
-    <lastmod>2022-03-27T18:49:11+01:00</lastmod>
-  </url><url>
-    <loc>https://robot-one.github.io/</loc>
-    <lastmod>2022-03-27T18:49:11+01:00</lastmod>
-  </url><url>
-    <loc>https://robot-one.github.io/posts/</loc>
-    <lastmod>2022-03-27T18:49:11+01:00</lastmod>
-  </url><url>
-    <loc>https://robot-one.github.io/tags/</loc>
     <lastmod>2022-03-27T18:49:11+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/tags/toys/</loc>
@@ -32,13 +56,7 @@
     <loc>https://robot-one.github.io/posts/hello-world/</loc>
     <lastmod>2022-03-15T06:14:00+00:00</lastmod>
   </url><url>
-    <loc>https://robot-one.github.io/tags/journal/</loc>
-    <lastmod>2022-03-15T06:14:00+00:00</lastmod>
-  </url><url>
     <loc>https://robot-one.github.io/categories/legacy/</loc>
-    <lastmod>2022-03-15T06:14:00+00:00</lastmod>
-  </url><url>
-    <loc>https://robot-one.github.io/tags/plans/</loc>
     <lastmod>2022-03-15T06:14:00+00:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/tags/test/</loc>
@@ -60,9 +78,6 @@
     <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/posts/story/</loc>
-    <lastmod>2022-03-16T01:18:00+00:00</lastmod>
-  </url><url>
-    <loc>https://robot-one.github.io/tags/todo/</loc>
     <lastmod>2022-03-16T01:18:00+00:00</lastmod>
   </url>
 </urlset>

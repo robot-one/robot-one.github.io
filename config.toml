@@ -2,7 +2,7 @@ baseURL = 'https://robot-one.github.io/'
 languageCode = 'en-gb'
 defaultContentLanguage = "en"
 title = 'Of Machines and Men'
-theme = 'dream'
+theme = ["dream", "darths-hugo-shortcodes"]
 
 
 # copyright = ""
@@ -22,6 +22,7 @@ unsafe = true
 ignoreErrors = ["error-missing-instagram-accesstoken"]
 
 [params]
+  debug= "true"
   backgroundImage = "/img/background.jpg"
   background = "#f7f7f7"
   linkColor = "seagreen"

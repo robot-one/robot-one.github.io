@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: robot-one.github.io
+Token: 4d28e42a735e7777971f43c9b3518a90d85bd7f847089bb7fd10fdb23eb23ae9

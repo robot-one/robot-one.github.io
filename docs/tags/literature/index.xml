@@ -26,5 +26,14 @@
       <description>&lt;p&gt;An audiobook, written by L. J. Sattgast, illustrated by Toni Goffe, read by Darren J. de Lima&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Shakespeare Stories</title>
+      <link>https://robot-one.github.io/posts/shakespeare-stories/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://robot-one.github.io/posts/shakespeare-stories/</guid>
+      <description>&lt;p&gt;Audiobook. A retelling of the Bard&amp;rsquo;s tales, by Leon Garfield (illus. Michael Foreman), read by yours truly.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

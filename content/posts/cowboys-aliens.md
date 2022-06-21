@@ -24,13 +24,13 @@ I woke up early after dreaming a dream. Here's the result:
 
 Absurdist sci-fi, in the vein of *[Hitchhiker's Guide to the Galaxy]*. I've been working on both a sci-fi epic and an absurdist allegory for years; it remains to be seen if I will finish the following, or incorporate it into one or the other. 
 
-**Warning: contains swearing**
+Warning: *contained* swearing, but I decided to censor it.
 
 ## Part 1 - Escape
 
-The wife looked up from tying her bonnet. "Are you ready, you old arsehole?" she called to her husband in the next room.
+The wife looked up from tying her bonnet. "Are you ready, you old a*****le?" she called to her husband in the next room.
 
-"Yes, my hateful whore," he replied.
+"Yes, my hateful w***e," he replied.
 
 *Good*, she thought. All was going as planned.
 
@@ -58,13 +58,13 @@ Planet Y was a breeding ground, reserved as such, with a tech level of around 19
 
 "My darling, let's go home," he said fondly.
 
-"Bastard!" she shook his hands from her shoulders and stormed to their other room at the inn. She knew she shouldn't have left him alone with that enthusiastic crowd in front of The Sheriff's Arms. They were home free until ten minutes ago. A crowd of well-wishers had gathered at the bar, and carried Mister Popular outside for a photoshoot for the Gazette. It wasn't every day you met escapees from the alien breeding camps. This was a victory for the resistance! See, they're normal people just like us! Drinks are on me, boy! Let's get your happy smiling mug doing everyday people things for tomorrow's newspaper. 
+"B****rd!" she shook his hands from her shoulders and stormed to their other room at the inn. She knew she shouldn't have left him alone with that enthusiastic crowd in front of The Sheriff's Arms. They were home free until ten minutes ago. A crowd of well-wishers had gathered at the bar, and carried Mister Popular outside for a photoshoot for the Gazette. It wasn't every day you met escapees from the alien breeding camps. This was a victory for the resistance! See, they're normal people just like us! Drinks are on me, boy! Let's get your happy smiling mug doing everyday people things for tomorrow's newspaper. 
 
 A quick flash, and his memory was gone. The newspaper boy was most certainly an Overseer in disguise, though you could hardly tell for the crowd.
 
 They were most helpful; they grabbed him as he wandered away to to develop his photos. 
 
-"We're really sorry this happened," said the innkeeper. "Damn near have ourselves a lynching. We can't have alien scum running the show."
+"We're really sorry this happened," said the innkeeper. "D**n near have ourselves a lynching. We can't have alien scum running the show."
 
 "Oh, thank you, Sir!" She put on her best grateful face while wringing her hands. *It wouldn't do any good, moron*. Her husband was a lost cause, and it would be no "home free" without him. 
 
@@ -111,7 +111,7 @@ It is fragmentary and a bit random, as suits a remembered dream, but has a surpr
 
 ### Further development
 
-The main characters are likely to be made a bit more sympathetic and less potty-mouthed. The cursing was there in the dream, and I recorded it verbatim, but I do think it's a bit much and adds little to the story. "Show, don't tell" is a good principle, and if the idea is for them to be mean to each other, there must be a better way.
+The main characters are likely to be made a bit more sympathetic and less potty-mouthed. The cursing was there in the dream, and I recorded it verbatim, but I do think it's a bit much and adds little to the story (censored in an update to the page). "Show, don't tell" is a good principle, and if the idea is for them to be mean to each other, there must be a better way.
 
 The "alien nature" of returning kindness for mistreatment will receive further commentary, should I write more. As a Very Wise Man once said,
 

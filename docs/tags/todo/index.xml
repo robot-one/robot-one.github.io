@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TODO on Of Machines and Men</title>
+    <title>todo on Of Machines and Men</title>
     <link>https://robot-one.github.io/tags/todo/</link>
-    <description>Recent content in TODO on Of Machines and Men</description>
+    <description>Recent content in todo on Of Machines and Men</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 25 May 2022 06:07:42 +0100</lastBuildDate><atom:link href="https://robot-one.github.io/tags/todo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Jun 2022 09:24:06 +0100</lastBuildDate><atom:link href="https://robot-one.github.io/tags/todo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cowboys &amp; Aliens</title>
+      <link>https://robot-one.github.io/posts/cowboys-aliens/</link>
+      <pubDate>Tue, 21 Jun 2022 09:24:06 +0100</pubDate>
+      
+      <guid>https://robot-one.github.io/posts/cowboys-aliens/</guid>
+      <description>&lt;p&gt;I woke up early after dreaming a dream. Here&amp;rsquo;s the result:&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Work I&#39;ve been doing</title>
       <link>https://robot-one.github.io/posts/work-05-2022/</link>

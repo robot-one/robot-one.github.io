@@ -17,7 +17,7 @@ tags:
   - Child Education
   - Downloads
 # nolastmod: true
-draft: true
+draft: false
 ---
 
 Audiobook. A retelling of the Bard's tales, by Leon Garfield (illus. Michael Foreman), read by yours truly.

@@ -41,6 +41,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   # roundAvatar = true
   headerTitle = "Hugo Theme Dream"
   motto = "Motto"
+  # hideArticleTags = "true"
   # maxTags = 5
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated

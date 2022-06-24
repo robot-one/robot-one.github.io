@@ -30,6 +30,7 @@ unsafe = true
   # roundAvatar = true
   headerTitle = "g1eny0ung 的博客"
   motto = "与其感慨路难行，不如马上出发。"
+  # hideArticleTags = "true"
   # maxTags = 5
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
@@ -163,7 +164,12 @@ Set the dark button in 404 page, usually use with dark `background` or `backgrou
 
 ### images = [""]
 
-See <https://gohugo.io/templates/internal/#open-graph>.
+See <https://gohugo.io/templates/internal/#open-graph>. This is related to the 
+```
+images:
+   - /img/post-cover.jpg
+```
+section in each page's front matter. This array is predefined as empty here, and can be filled in each individual article, usually with an entry for the same image used in `cover: `. This image is then what will be picked up by social media when shared, e.g. that nice screenshot of GitHub you get when sharing via Twitter or Telegram. It is populated by Hugo's Opengraph function.
 
 ### author = "g1eny0ung"
 
@@ -196,6 +202,9 @@ Dream was originally intended to be used only as a blog theme. But with continuo
 ### motto = "与其感慨路难行，不如马上出发。"
 
 Used in Header.
+
+### hideArticleTags = "true"
+Articles now have their Categories and applied Tags (if present in the front matter) displayed below the Author/Date/LastMod/etc. area. Uncomment this param to hide them (BUG: currently, setting it to "false" does nothing; comment param instead).
 
 ### maxTags = 5
 

@@ -14,11 +14,11 @@ Before customization, you need to add the related fields to your configuration, 
 
 ## CSS
 
-It’s very easy to change the theme through CSS. Dream theme base on [Semantic UI](https://semantic-ui.com/), and nearly
+It’s very easy to change the theme through CSS. Dream theme is based on [Semantic UI](https://semantic-ui.com/), and nearly
 all the custom classes start with the `dream-` prefix. So in most cases, you only need to customize in these two ways:
 
 - **Override Semantic UI classes**
-- **Override Dream specified classes** (Can be found in [site.scss](https://github.com/g1eny0ung/hugo-theme-dream/blob/master/src/sass/site.scss))
+- **Override Dream specified classes** (Can be found in [site.scss](../src/sass/site.scss))
 
 Here are some examples:
 
@@ -58,7 +58,7 @@ body.dark .os-viewport {
 
 ### Change dark mode color
 
-Due to the Dream theme use Semantic UI `.ui.inverted` as the color of dark mode, so you can change it by:
+Due to the Dream theme using Semantic UI `.ui.inverted` as the color of dark mode, so you can change it by:
 
 ```css
 .ui.inverted.segment,
@@ -67,7 +67,7 @@ Due to the Dream theme use Semantic UI `.ui.inverted` as the color of dark mode,
 }
 ```
 
-### Custom masonry layouts' item
+### Custom masonry layout items
 
 ```css
 .ui.attached.segment.dream-card {
@@ -92,9 +92,9 @@ Due to the Dream theme use Semantic UI `.ui.inverted` as the color of dark mode,
 ## JS
 
 By customizing JS, you can manipulate the whole theme more freely. For example, some params will output to the global
-so you can achieve custom behaviors through them.
+so you can achieve custom behaviours through them.
 
-Here are the current output params (Can be found in [footer.html](https://github.com/g1eny0ung/hugo-theme-dream/blob/master/layouts/partials/footer.html)):
+Here are the current output params (Can be found in [footer.html](../layouts/partials/footer.html)):
 
 ```js
 window.background = {{ .Site.Params.background }}

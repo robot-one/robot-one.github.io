@@ -57,6 +57,8 @@ See [Hugo: Hosting & Deployment](https://gohugo.io/hosting-and-deployment/).
 
 This theme is compatible with [netlify CMS](https://www.netlifycms.org/).
 
+You can also use [GitHub Pages](https://pages.github.com/) or [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) to host static websites for free.
+
 ## Tags
 All of this theme's tags, from [theme.toml](theme.toml):
 
@@ -66,4 +68,5 @@ All of this theme's tags, from [theme.toml](theme.toml):
 
 [MIT](LICENSE) © [g1eny0ung](https://github.com/g1eny0ung)
 
+Many thanks to the Open-Source community for [components used](/docs/3rd-party) in dream.
 

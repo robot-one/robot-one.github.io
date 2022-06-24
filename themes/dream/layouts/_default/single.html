@@ -76,8 +76,35 @@
 
               {{ if ne .Params.nolastmod true }}
               | {{ i18n "updateAt" }}
-                {{ partial "i18n.html" . }}
+                {{ partial "i18n2.html" . }}
               {{ end }}
+<!-- Hugo IF NOT is weird https://discourse.gohugo.io/t/reverse-if-conditional/3748, https://discourse.gohugo.io/t/check-for-not-isset/16812, https://gohugo.io/functions/with#readout -->		
+            {{ with .Site.Params.hideArticleTags }}			
+<!-- if true, display nothing -->
+            {{ else }}
+<!-- if false [DOES NOT WORK]/not present [WORKS], display default -->			
+               <p>
+		     	  {{ if isset .Params "categories" }}
+		     		<i class="th list icon" title="{{ T "allCategories" }}" alt="{{ T "allCategories" }}"></i>
+		     			<a href="{{ "/categories/" | relLangURL }}{{ .Params.categories | urlize }}">{{ .Params.categories }}</a>
+		     			&nbsp;
+		     	  {{ else }}
+		     	  {{ end }}
+		
+                {{ if isset .Params "tags" }}
+	<span class="dream-tags">
+                	<i class="tags icon" title="{{ T "allTags" }}" alt="{{ T "allTags" }}"></i>
+                	{{ range .Params.tags }}
+                		<a class="ui label" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+                		&nbsp;
+                	{{ end }}
+	</span>
+                {{ else }}
+                {{ end }}
+				
+              </p>
+			{{ end }}			  
+			  
             </span>
 
             {{ if not $shareInAside }}
@@ -148,12 +175,18 @@
 
 <!--Hugo doesn't like SRI for highlightjs: integrity="sha256-+drbZCPWcVz0Wo0d8P8eD49H5xzTu68R7h7W5trZRk8=" crossorigin="anonymous"-->
 
-<!--{{ if .Site.Params.highlightjsExtraLanguages }}
-{{ range .Site.Params.highlightjsExtraLanguages }}-->
-<!--<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/languages/{{ . }}.min.js"></script>-->
-<!--<script src="{{ "/js/3p/hljs/{{ . }}.min.js" | relURL }}" />
+{{ if .Site.Params.highlightjsExtraLanguages }}
+{{ if .Site.Params.CDNJS }}
+  {{ range .Site.Params.highlightjsExtraLanguages }}
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/languages/{{ . }}.min.js"></script>
+  {{ end }}
+{{- else -}}
+  {{ range .Site.Params.highlightjsExtraLanguages }}
+    <script src="{{ "/js/3p/hljs/{{ . }}.min.js" | relURL }}" /></script>
+  {{ end }}
 {{ end }}
-{{ end }}-->
+
+{{ end }}
 
 {{ partial "highlight.html" . }}
 {{ end }}

@@ -4,12 +4,20 @@
 - Lots of stuff is broken or performs poorly in Firefox (and derivatives)
 - ~~About/Flip page loads inline html images from incorrect paths (example: visit any page other than Home and then click About/Flip)~~ You need to be careful to use a leading slash `/img/pepe.jpg` so as to load relative to the site root, rather than relative to the page root `img/pepe.jpg`.
 - Internet Explorer 11 weird laggy/zoom scrolling (Win10)
+- Animated GIFs render properly with transparencies on the homepage, but in articles, have a white border in Dark Mode - this seems due to `github-markdown.min@4.0.0.css`
 - Older Safari (iOS, Windows) loads About/Flip page content on top of homepage content
 - TODO: rich-content-offline.md - figure out some alternate shortcodes to include, instead of inline HTML 
 - Make sure to set `baseURL` in `config.toml` correctly, e.g. `baseURL = 'https://site-name.github.io/'`. For example, if you forget to set "https" and put "http", but then your site is served over https, the search function will break, as modern browsers will block its attempts to `insecure XMLHttpRequest` the search index over http from an https site.
 - Clicking on a `tag` will load plain XML, rather than a filter by that tag.
+- There is no way to filter by authors. Possible workaround: Create a tag for "Author: Authorname" for each guest author, and put that as the author link in each article. However, this pollutes the tags. [wololo.net](https://wololo.net/) uses plain Authorname tags to sort by author.
+- Articles do not display which tags they have been tagged with.
+- There are no "related articles" or discovery features.
+- The homepage isn't really chronological; quite confusing to follow.
 - `siteParam textButtons` is not responsive and results in text/icon overflow on small screens if enabled
 - CSS is prone to breaking easily in development. Usually, it's just your browser caching some broken CSS. Clear your browser cache, and test in Incognito windows to avoid this.
+- highlightjs extra languages won't work because its block at `line:150+` in `\layouts\_default\single.html` is commented. Attempts to make it work online/offline via CDNJS param don't currently work.
+- Disabling Overlay Scrollbars will break the sticky header navbar due to CSS dependencies.
+- Last Modified date in content posts is always the same as Date, even if specified as different in the frontmatter. 
 
 ### Hugo Easy Gallery compatibility
 - Hugo Easy Gallery pointed at a folder `{{</* gallery dir="/img/arduino/" */>}}` does not load `hugo-easy-gallery.css`, so images will repeat. If you force the CSS to load (`config.toml` >> `[params.advanced]`), they will display in a correctly formatted grid, but `load-photoswipe.js` is not loaded (so images function as hotlinks only). It also prevents the rest of the page from being rendered. Workaround: reference images directly, rather than as a folder. See [hugo-easy-gallery, Issue #65](https://github.com/liwenyip/hugo-easy-gallery/issues/65)

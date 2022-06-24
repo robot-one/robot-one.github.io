@@ -15,3 +15,6 @@
 - [Post as Image](post-as-image.md)
 - [Netlify CMS](netlify-cms.md)
 - [Custom theme](custom.md)
+- [3rd Party Components Used](3rd-party.md)
+- [CHANGELOG](CHANGELOG.md)
+- [Compatibility & Known Issues](compatibility&known-issues.md)

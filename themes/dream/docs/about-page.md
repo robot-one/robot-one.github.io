@@ -8,7 +8,7 @@ Type in your terminal:
 hugo new about/me.md
 ```
 
-Write somethings **about you**:
+Write something **about you**:
 
 ```md
 ---
@@ -20,7 +20,7 @@ Hi, my name is Yue Yang.
 This is my blog.
 ```
 
-Then create an `index.md` in the about folder and put below contents into it:
+Then create an `index.md` in the about folder and insert the below contents:
 
 ```md
 ---
@@ -28,7 +28,7 @@ headless: true
 ---
 ```
 
-You will be curious why it's needed to create an `index.md`. Because dream won't want the about folder to be output as `RegularPages`.
+You may wonder why it's necessary to create an empty `index.md`. Because dream won't want the about folder to be output as `RegularPages`.
 
 Related docs: <https://gohugo.io/content-management/page-bundles/#headless-bundle>
 

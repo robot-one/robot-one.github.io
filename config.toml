@@ -43,6 +43,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   roundAvatar = false
   headerTitle = "Of Machines and Men"
   motto = "Handcrafted heroes and legends"
+  # hideArticleTags = "true"
   # maxTags = 5
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated

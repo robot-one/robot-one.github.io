@@ -1,5 +1,12 @@
 /* custom.css ripped from https://g1en.site/ */
 
+/*812px works better, but for consistency we use 768px */
+@media only screen and (max-width: 768px) {
+.desktop-visible {
+  display: none !important;
+}
+}
+
 /*body.dark .os-viewport {
   background-color: rgba(0, 0, 0, 0.6);
 }*/

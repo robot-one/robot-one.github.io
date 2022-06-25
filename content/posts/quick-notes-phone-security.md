@@ -29,6 +29,8 @@ Perhaps too thorough? It's rather long, so I thought it worth sharing here, too.
 Security professionals have done a much better job than me, comparing the security of all the popular chat applications here:
 ### [SecureMessagingApps.com](https://www.securemessagingapps.com/)
 
+My friend asked about Whatsapp specifically, and this article from MakeUseOf, "**[Is WhatsApp Safe? 5 Scams, Threats, and Security Risks to Know About](https://www.makeuseof.com/tag/4-security-threats-whatsapp-users-need-know/)**", is also a pretty good summary.
+
 ## ![English Language](/img/logos/United-Kingdom.gif) English:
 
 > Hi

@@ -3,16 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://robot-one.github.io/categories/</loc>
-    <lastmod>2022-06-21T09:24:06+01:00</lastmod>
+    <lastmod>2022-06-25T01:30:45+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/posts/cowboys-aliens/</loc>
     <lastmod>2022-06-21T09:24:06+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/</loc>
-    <lastmod>2022-06-21T09:24:06+01:00</lastmod>
+    <lastmod>2022-06-25T01:30:45+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/posts/</loc>
-    <lastmod>2022-06-21T09:24:06+01:00</lastmod>
+    <lastmod>2022-06-25T01:30:45+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/tags/sci-fi/</loc>
     <lastmod>2022-06-21T09:24:06+01:00</lastmod>
@@ -24,7 +24,7 @@
     <lastmod>2022-06-21T09:24:06+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/tags/</loc>
-    <lastmod>2022-06-21T09:24:06+01:00</lastmod>
+    <lastmod>2022-06-25T01:30:45+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/tags/todo/</loc>
     <lastmod>2022-06-21T09:24:06+01:00</lastmod>
@@ -62,6 +62,24 @@
     <loc>https://robot-one.github.io/posts/work-05-2022/</loc>
     <lastmod>2022-05-25T06:09:06+01:00</lastmod>
   </url><url>
+    <loc>https://robot-one.github.io/tags/hacks/</loc>
+    <lastmod>2022-06-25T01:30:45+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/romanian/</loc>
+    <lastmod>2022-06-25T01:30:45+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/security-research/</loc>
+    <lastmod>2022-06-25T01:30:45+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/posts/quick-notes-phone-security/</loc>
+    <lastmod>2022-06-25T01:30:45+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/categories/tech/</loc>
+    <lastmod>2022-06-25T01:30:45+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/telephone/</loc>
+    <lastmod>2022-06-25T01:30:45+01:00</lastmod>
+  </url><url>
     <loc>https://robot-one.github.io/tags/art/</loc>
     <lastmod>2022-03-27T18:49:11+01:00</lastmod>
   </url><url>
@@ -81,7 +99,7 @@
     <lastmod>2022-03-15T06:14:00+00:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/categories/legacy/</loc>
-    <lastmod>2022-06-04T23:36:56+01:00</lastmod>
+    <lastmod>2022-06-22T01:19:17+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/tags/test/</loc>
     <lastmod>2022-03-15T06:14:00+00:00</lastmod>
@@ -112,5 +130,14 @@
   </url><url>
     <loc>https://robot-one.github.io/posts/story/</loc>
     <lastmod>2022-03-16T01:18:00+00:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/posts/how-to-make-campaigns/</loc>
+    <lastmod>2022-06-22T01:19:17+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/magic-the-gathering/</loc>
+    <lastmod>2022-06-22T01:19:17+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/wagic-the-homebrew/</loc>
+    <lastmod>2022-06-22T01:19:17+01:00</lastmod>
   </url>
 </urlset>

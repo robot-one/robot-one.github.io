@@ -14,7 +14,7 @@ tags:
   - Work
   - todo
 # nolastmod: true
-draft: true
+draft: false
 ---
 
 Today, I'm starting a work experience placement with the British Civil Service. This page is a temporary demo scratchpad to show off some ideas.

@@ -43,13 +43,5 @@ Similar code is used to embed a feedback form:
 **Please do not enter any confidential information or real contact details** (you can reach me from the About page, above); **the below form is a public demo!!!** 
 {{< google doctype="forms" publishcode="1FAIpQLSc0lXEcWF2Di7_bPpoq3aF3CvzGQhH5p8RDSed_LYok-mMyyQ" size="large" url="https://docs.google.com/forms/d/1_LZVpM5MYinCAlF4ep0h75Kj0z0bLGZDVWASFEFR6VY/edit" >}}
 
-### Google Sheets
-The below spreadsheet again uses similar code to embed the results of the above feedback form:
-```
-{{</* google doctype="sheets" publishcode="2PACX-1vTKL3b5_-6fOuwKHmi0Czf7YVsb_x7BpDUAWNW4SZV35zYMKYlJq-wdZwmOvrXK89Xeq5iz0nEYDW5t" size="medium" url="https://docs.google.com/spreadsheets/d/1scrk38OQjXUE42EqmTTFdNmp8PopXxsQ2A7xnVkmmzA/edit?usp=sharing" */>}}
-```
-
-{{< google doctype="sheets" publishcode="2PACX-1vTKL3b5_-6fOuwKHmi0Czf7YVsb_x7BpDUAWNW4SZV35zYMKYlJq-wdZwmOvrXK89Xeq5iz0nEYDW5t" size="small" url="https://docs.google.com/spreadsheets/d/1scrk38OQjXUE42EqmTTFdNmp8PopXxsQ2A7xnVkmmzA/edit?usp=sharing" >}}
-
 ## Further work
 As this is a working document, more examples to come later; slideshows and spreadsheets (e.g. the results of a feedback form) can also be displayed. I am also actively working on bringing over the same features from Microsoft OneDrive and SharePoint.

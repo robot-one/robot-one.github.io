@@ -11,8 +11,14 @@
   border-bottom: initial;
 }
 
+/* doesn't work
 img {
 	background-color: initial !important;
+}
+*/
+
+a.forumtitle {
+    color: #105289;
 }
 
 .rectangle3 {

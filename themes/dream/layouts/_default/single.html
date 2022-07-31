@@ -95,7 +95,7 @@
 	<span class="dream-tags">
                 	<i class="tags icon" title="{{ T "allTags" }}" alt="{{ T "allTags" }}"></i>
                 	{{ range .Params.tags }}
-                		<a class="ui label" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+                		<a class="ui label button" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
                 		&nbsp;
                 	{{ end }}
 	</span>

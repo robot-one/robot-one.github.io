@@ -12,16 +12,17 @@
   {{ end }}
 
   <div class="content">
-    <h1 class="ui extra-large header">
+    <h1 class="ui extra-large header master">
       {{- if .Site.Params.headerTitle -}}
         {{- .Site.Params.headerTitle -}}
       {{- else -}}
         Set headerTitle in the config to display
       {{- end -}}
-      <span class="sub header">
+      <span class="sub header master">
         {{- .Site.Params.motto | safeHTML -}}
+		<br>
+		<noscript style="color: red;">Please enable JavaScript for this website to work properly.</noscript>
       </span>
-	  <noscript>Please enable JavaScript for this website to work properly.</noscript>
     </h1>
 
 {{ if not .Site.Params.topTags }}

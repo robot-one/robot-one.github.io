@@ -62,3 +62,6 @@ other = "!اشترك"
 
 [switchTheme]
 other = "سمة"
+
+[pageNotFound]
+other = "خطأ - الصفحة غير موجودة"

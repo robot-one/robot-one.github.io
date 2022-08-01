@@ -62,3 +62,6 @@ other = "Abonēt!"
 
 [switchTheme]
 other = "Tēma"
+
+[pageNotFound]
+other = "Kļūda - lapa nav atrasta"

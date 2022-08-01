@@ -70,3 +70,6 @@ other = "Подпишитесь!"
 
 [switchTheme]
 other = "Тема"
+
+[pageNotFound]
+other = "Ошибка - страница не найдена"

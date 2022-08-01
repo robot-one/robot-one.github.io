@@ -62,3 +62,6 @@ other = "Abone ol!"
 
 [switchTheme]
 other = "Tema"
+
+[pageNotFound]
+other = "Hata - sayfa bulunamadı"

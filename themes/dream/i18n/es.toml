@@ -62,3 +62,6 @@ other = "Suscríbete!"
 
 [switchTheme]
 other = "Tema"
+
+[pageNotFound]
+other = "Error - página no encontrada"

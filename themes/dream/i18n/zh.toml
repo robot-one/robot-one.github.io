@@ -61,3 +61,6 @@ other = "訂閱!"
 
 [switchTheme]
 other = "主題"
+
+[pageNotFound]
+other = "错误 - 找不到页面"

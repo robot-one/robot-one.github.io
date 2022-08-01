@@ -61,3 +61,6 @@ other = "購読!"
 
 [switchTheme]
 other = "テーマ"
+
+[pageNotFound]
+other = "エラー - ページが見つかりません"

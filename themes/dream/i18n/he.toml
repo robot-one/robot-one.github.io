@@ -62,3 +62,6 @@ other = "!הירשם"
 
 [switchTheme]
 other = "נושא"
+
+[pageNotFound]
+other = "שגיאה - הדף לא נמצא""

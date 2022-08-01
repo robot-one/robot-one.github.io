@@ -62,3 +62,6 @@ other = "Naročite se!"
 
 [switchTheme]
 other = "Temo"
+
+[pageNotFound]
+other = "Napaka - stran ni bila najdena"

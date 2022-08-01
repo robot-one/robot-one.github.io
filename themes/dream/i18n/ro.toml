@@ -62,3 +62,6 @@ other = "Abonați-vă!"
 
 [switchTheme]
 other = "Temă"
+
+[pageNotFound]
+other = "Eroare - pagina nu a fost găsită"

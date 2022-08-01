@@ -4,6 +4,10 @@
 <div class="dream-404-container">
   <div class="ui basic center aligned segment">
     {{ if or .Site.Params.backgroundDark .Site.Params.backgroundImageDark }}
+    <h1 class="ui extra-large header master">
+        404
+        <span class="sub header master">{{ i18n "pageNotFound" }}</span>
+      </h1>
       <h1 class="ui header">
         {{ .Site.Params.error404Header }}
         <span class="sub header">{{ .Site.Params.error404SubHeader }}</span>
@@ -12,6 +16,10 @@
         <button class="ui secondary button" onclick="window.location.href = '{{ .Site.BaseURL }}'">{{ i18n "backToHome" }}</button>
       </p>
     {{ else if .Site.Params.dark404 }}
+      <h1 class="ui extra-large header master">
+        404
+        <span class="sub header master">{{ i18n "pageNotFound" }}</span>
+      </h1>
       <h1 class="ui inverted header">
         {{ .Site.Params.error404Header }}
         <span class="sub header">{{ .Site.Params.error404SubHeader }}</span>

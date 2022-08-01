@@ -13,6 +13,12 @@
     {{ range .Site.Params.Advanced.customCSS }}
     <link rel="stylesheet" href="{{ . | relURL }}" />
     {{ end }}
+    <!-- Workaround bug in github-markdown.css, images in body do not display transparency properly. CSS is here because it refuses to work anywhere else -->
+    <style>
+      .markdown-body img {
+      background-color: initial !important;
+    }
+    </style>
   </head>
 
   <body class="default">
@@ -25,11 +31,14 @@
 
             <footer class="ui basic center aligned segment" style="background-color: transparent;">
               {{ if .Site.Params.siteStartYear }}
-              <p>© {{ if eq now.Year .Site.Params.siteStartYear }}{{ now.Year }}{{ else }}{{ .Site.Params.siteStartYear }} - {{ now.Year }}{{ end }} {{ .Site.Title }}</p>
+              <p>© {{ if eq now.Year .Site.Params.siteStartYear }}{{ now.Year }}{{ else }}{{ .Site.Params.siteStartYear }} - {{ now.Year }}{{ end }} {{ .Site.Title }}.
               {{ else }}
-              <p>© {{ now.Year }} {{ .Site.Title }}</p>
+              <p>© {{ now.Year }} {{ .Site.Title }}.
               {{ end }}
-
+              {{ if .Site.Params.commit }}
+                Site last updated: <a href="{{ .Site.Params.commit }}" target="_blank">{{ now.Format "06 June 2006" }}</a>
+              {{ end }}
+              </p>
               <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
 
               {{ if .Site.Params.footerBottomText }}

@@ -17,7 +17,6 @@ publishDir = 'docs'
 [markup.goldmark.renderer] 
 unsafe = true 
 
-# copyright = ""
 # ignore stupid error
 ignoreErrors = ["error-missing-instagram-accesstoken"]
 
@@ -44,7 +43,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   headerTitle = "Of Machines and Men"
   motto = "Handcrafted heroes and legends"
   # hideArticleTags = "true"
-  # maxTags = 5
+  maxTags = 12
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
 
@@ -73,6 +72,9 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   # codepen = ""
 
   siteStartYear = 2016
+  # Required for "Site last updated" footer
+  # commit = "https://github.com/<username>/<siterepo.github.io>/commits/"
+  commit = "https://github.com/robot-one/robot-one.github.io/commits/"
 
   favicon = "/favicons/favicon.ico"
 

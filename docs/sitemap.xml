@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://robot-one.github.io/posts/220709-upcoming/</loc>
-    <lastmod>2022-08-01T01:24:13+01:00</lastmod>
-  </url><url>
     <loc>https://robot-one.github.io/categories/</loc>
     <lastmod>2022-08-01T02:12:39+01:00</lastmod>
   </url><url>
@@ -22,6 +19,9 @@
   </url><url>
     <loc>https://robot-one.github.io/posts/</loc>
     <lastmod>2022-08-01T02:12:39+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/posts/220709-upcoming/</loc>
+    <lastmod>2022-08-01T01:24:13+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/tags/</loc>
     <lastmod>2022-08-01T02:12:39+01:00</lastmod>

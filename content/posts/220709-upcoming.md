@@ -1,5 +1,5 @@
 ---
-title: 
+title: Revisionist History- upcoming articles
 date: 2022-07-09T08:12:00+01:00
 lastmod: 2022-08-01T01:24:13+01:00
 author: Darthagnon
@@ -44,7 +44,7 @@ Older articles I probably wrote elsewhere, or of past events.
 - [ ] VPN article (AIOWares forum thread)
 - [ ] MadCatz mouse drivers (Reddit)
 - [ ] Nostromo Speedpad drivers
-- [ ] Pilgrim's Progress, Retold audiobook
+- [x] ~~Pilgrim's Progress, Retold audiobook~~ **[here]({{<relref "/posts/211104-a-pilgrims-progress-retold.md ">}})**
 - [ ] Archive.org ebooks (Reddit)
 - [ ] old The Lost Chapters gamerules
 - [ ] Daydream, Part 1

@@ -6,13 +6,40 @@
     <description>Recent content in Tags on Of Machines and Men</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 28 Jun 2022 00:18:14 +0100</lastBuildDate><atom:link href="https://robot-one.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jul 2022 08:12:00 +0100</lastBuildDate><atom:link href="https://robot-one.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>todo</title>
+      <title>Journal</title>
+      <link>https://robot-one.github.io/tags/journal/</link>
+      <pubDate>Sat, 09 Jul 2022 08:12:00 +0100</pubDate>
+      
+      <guid>https://robot-one.github.io/tags/journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plans</title>
+      <link>https://robot-one.github.io/tags/plans/</link>
+      <pubDate>Sat, 09 Jul 2022 08:12:00 +0100</pubDate>
+      
+      <guid>https://robot-one.github.io/tags/plans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TODO</title>
       <link>https://robot-one.github.io/tags/todo/</link>
-      <pubDate>Tue, 28 Jun 2022 00:18:14 +0100</pubDate>
+      <pubDate>Sat, 09 Jul 2022 08:12:00 +0100</pubDate>
       
       <guid>https://robot-one.github.io/tags/todo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WebDev</title>
+      <link>https://robot-one.github.io/tags/webdev/</link>
+      <pubDate>Sat, 09 Jul 2022 08:12:00 +0100</pubDate>
+      
+      <guid>https://robot-one.github.io/tags/webdev/</guid>
       <description></description>
     </item>
     
@@ -71,15 +98,6 @@
     </item>
     
     <item>
-      <title>Journal</title>
-      <link>https://robot-one.github.io/tags/journal/</link>
-      <pubDate>Wed, 25 May 2022 06:07:42 +0100</pubDate>
-      
-      <guid>https://robot-one.github.io/tags/journal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Literature</title>
       <link>https://robot-one.github.io/tags/literature/</link>
       <pubDate>Wed, 25 May 2022 06:07:42 +0100</pubDate>
@@ -94,15 +112,6 @@
       <pubDate>Wed, 25 May 2022 06:07:42 +0100</pubDate>
       
       <guid>https://robot-one.github.io/tags/news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Plans</title>
-      <link>https://robot-one.github.io/tags/plans/</link>
-      <pubDate>Wed, 25 May 2022 06:07:42 +0100</pubDate>
-      
-      <guid>https://robot-one.github.io/tags/plans/</guid>
       <description></description>
     </item>
     
@@ -181,7 +190,7 @@
     <item>
       <title>Downloads</title>
       <link>https://robot-one.github.io/tags/downloads/</link>
-      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 04 Nov 2021 11:26:00 +0000</pubDate>
       
       <guid>https://robot-one.github.io/tags/downloads/</guid>
       <description></description>

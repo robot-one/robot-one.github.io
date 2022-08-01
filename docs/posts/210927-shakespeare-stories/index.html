@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Shakespeare Stories | Of Machines and Men</title>
+
+    
+<link href="/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+
+<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+
+
+<link rel="manifest" href="/manifest.json">
+<link rel="serviceworker" href="/sw.html">
+
+
+
+<meta name="author" content="Darthagnon" />
+<meta name="description" content="Audiobook. A retelling of the Bard&amp;rsquo;s tales, by Leon Garfield (illus. Michael Foreman), read by yours truly.
+" />
+
+
+
+<meta name="generator" content="Hugo 0.99.0" />
+
+<link rel="canonical" href="https://robot-one.github.io/posts/210927-shakespeare-stories/" />
+
+
+<meta property="og:title" content="Shakespeare Stories" />
+<meta property="og:description" content="Audiobook. A retelling of the Bard&rsquo;s tales, by Leon Garfield (illus. Michael Foreman), read by yours truly." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://robot-one.github.io/posts/210927-shakespeare-stories/" /><meta property="og:image" content="https://robot-one.github.io/"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-09-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-06-04T23:36:56+01:00" />
+
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://robot-one.github.io/"/>
+
+<meta name="twitter:title" content="Shakespeare Stories"/>
+<meta name="twitter:description" content="Audiobook. A retelling of the Bard&rsquo;s tales, by Leon Garfield (illus. Michael Foreman), read by yours truly."/>
+
+
+<link rel="stylesheet" href="/css/3p/semantic.min@2.4.2.css" />
+
+<link rel="stylesheet" href="/css/icomoon.css" />
+
+  <link rel="stylesheet" href="/css/3p/OverlayScrollbars.min@1.13.0.css" />
+  
+
+<link rel="stylesheet" href="/css/3p/github-markdown.min@4.0.0.css" />
+
+<link rel="stylesheet" href="/css/site.css" />
+
+<style>
+  .ui.header a:not(.item, .ui.button):hover {
+    text-decoration: underline;
+  }
+
+  
+  a:not(.item, .ui.button) {
+    color: seagreen !important;
+  }
+  
+
+  
+  .inverted a:not(.item, .ui.button) {
+     color: darkseagreen !important;
+  }
+  
+
+  
+  body.default {
+    
+    background-color: #f7f7f7;
+    
+
+    
+    background-image: url(/img/background.jpg);
+    
+  }
+  
+
+  
+  body.dark {
+    
+    background-color: black;
+    
+
+    
+    background-image: url(/img/background-dark.jpg);
+    
+  }
+  
+</style>
+
+
+    
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+    
+    <style>
+      .markdown-body img {
+      background-color: initial !important;
+    }
+    </style>
+  </head>
+
+  <body class="default">
+    
+<nav class="ui secondary menu dream-menu dream-nav">
+
+  <a class="item dream-flip-toggle" title="About" alt="About">
+    <i class="large link question circle icon"></i>
+    
+	<div class="desktop-visible">
+    &nbsp;&nbsp;About
+	</div>
+    
+  </a>
+  <a class="item" href="https://robot-one.github.io/" title="Home" alt="Home">
+    <i class="large link home icon"></i>
+      
+      <div class="desktop-visible">
+      &nbsp;&nbsp;Home
+      </div>
+      
+  </a>
+  
+  <a class="item" title="Theme" alt="Theme" onclick="themeSwitch(event)">
+    <i class="large link icon theme-switch"></i>
+    
+	<div class="desktop-visible">
+    &nbsp;&nbsp;Theme
+	</div>
+    
+  </a>
+  
+  
+  <a class="item" title="Search" alt="Search" onclick="toggleSearch(event)">
+    <i class="large link search icon"></i>
+    
+	<div class="desktop-visible">
+    &nbsp;&nbsp;Search
+	</div>
+    
+  </a>
+  
+  
+      
+      <a class="item" href="/posts">
+        <i class="large archive icon" title="Archives" alt="Archives"></i>
+        
+		<div class="desktop-visible">
+        &nbsp;&nbsp;Archives
+		</div>
+        
+      </a>
+      
+      <a class="item" href="/categories">
+        <i class="large th list icon" title="Categories" alt="Categories"></i>
+        
+		<div class="desktop-visible">
+        &nbsp;&nbsp;Categories
+		</div>
+        
+      </a>
+      <a class="item" href="/tags">
+        <i class="large tags icon" title="Tags" alt="Tags"></i>
+        
+		<div class="desktop-visible">
+        &nbsp;&nbsp;Tags
+		</div>
+        
+      </a>
+  
+  
+  <a class="item" href="/index.xml" title="Subscribe!" alt="Subscribe!">
+    <i class="large link rss icon"></i>
+    
+	<div class="desktop-visible">
+    &nbsp;&nbsp;Subscribe!
+	</div>
+    
+  </a>
+  
+  
+</nav>
+
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          <div class="dream-max-width">
+            
+<div class="ui relaxed centered grid dream-grid dream-grid-single">
+  
+  
+  
+  
+
+  
+  <aside class="sixteen wide mobile sixteen wide tablet three wide computer column dream-single-aside">
+    
+    <div class="ui segment toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#download-shakespeare-stories">Download <em>Shakespeare Stories</em></a></li>
+    <li><a href="#listen-online-to-shakespeare-stories">Listen Online to <em>Shakespeare Stories</em></a></li>
+    <li><a href="#dramatic-summaries">Dramatic Summaries</a>
+      <ul>
+        <li><a href="#01-shakespeare-stories---introduction">01 Shakespeare Stories - Introduction</a></li>
+        <li><a href="#01-twelfth-night">01 Twelfth Night</a></li>
+        <li><a href="#02-king-lear">02 King Lear</a></li>
+        <li><a href="#03-the-tempest">03 The Tempest</a></li>
+        <li><a href="#04-the-merchant-of-venice">04 The Merchant of Venice</a></li>
+        <li><a href="#05-the-taming-of-the-shrew">05 The Taming of the Shrew</a></li>
+        <li><a href="#06-king-richard-ii">06 King Richard II</a></li>
+        <li><a href="#07-king-henry-iv-part-one">07 King Henry IV, Part One</a></li>
+        <li><a href="#08-hamlet">08 Hamlet</a></li>
+        <li><a href="#09-romeo--juliet">09 Romeo &amp; Juliet</a></li>
+        <li><a href="#10-othello">10 Othello</a></li>
+        <li><a href="#11-a-midsummer-nights-dream">11 A Midsummer Night&rsquo;s Dream</a></li>
+        <li><a href="#12-macbeth">12 Macbeth</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+    
+
+    
+  </aside>
+  
+  <div class="sixteen wide mobile sixteen wide tablet ten wide computer column markdown-body dream-single" id="dream-save-post-as-img">
+    <section class="ui segment">
+      <header>
+        <h1 class="ui large header">Shakespeare Stories<span class="sub header">
+            <span class="left"><img class="ui avatar image" src="/img/authors/Darthagnon.jpg" alt="avatar" />
+              
+                
+                  <a href="https://robot-one.github.io" target="_blank">Darthagnon</a>
+                
+              
+
+              | 
+  
+    Monday, 27 Sep, 2021
+  
+
+
+
+              | 7 minutes read
+
+              
+              | Last updated
+                
+  
+    Saturday, 4 Jun, 2022
+  
+
+
+              
+		
+            
+			
+               <p>
+		     	  
+		     		<i class="th list icon" title="Categories" alt="Categories"></i>
+		     			<a href="/categories/">[Legacy Audiobooks]</a>
+		     			&nbsp;
+		     	  
+		
+                
+	<span class="dream-tags">
+                	<i class="tags icon" title="Tags" alt="Tags"></i>
+                	
+                		<a class="ui label button" href="/tags/literature">#Literature</a>
+                		&nbsp;
+                	
+                		<a class="ui label button" href="/tags/poetry">#Poetry</a>
+                		&nbsp;
+                	
+                		<a class="ui label button" href="/tags/child-education">#Child Education</a>
+                		&nbsp;
+                	
+                		<a class="ui label button" href="/tags/downloads">#Downloads</a>
+                		&nbsp;
+                	
+	</span>
+                
+				
+              </p>
+						  
+			  
+            </span>
+
+            
+            <span class="dream-share">
+  <a href="#" class="save-as-image" title="Save as image" onclick="savePostAsImg()">
+    <i class="save icon" alt="Save as image"></i>
+  </a>
+  <a href="https://twitter.com/intent/tweet?text=Shakespeare%20Stories&url=https%3a%2f%2frobot-one.github.io%2fposts%2f210927-shakespeare-stories%2f" title="Twitter">
+    <i class="twitter icon" alt="Twitter"></i>
+  </a>
+  <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2frobot-one.github.io%2fposts%2f210927-shakespeare-stories%2f" title="Facebook">
+    <i class="facebook icon" alt="Facebook"></i>
+  </a>
+  <a href="https://t.me/share/url?url=https%3a%2f%2frobot-one.github.io%2fposts%2f210927-shakespeare-stories%2f&text=Shakespeare%20Stories" title="Telegram">
+    <i class="telegram icon" alt="Telegram"></i>
+  </a>
+</span>
+
+            
+          </span>
+        </h1>
+      </header>
+
+      <article class="main">
+        
+        <img class="cover" src="/img/Shakespeare%20Stories%201.jpg" />
+        
+
+        <p>Audiobook. A retelling of the Bard&rsquo;s tales, by Leon Garfield (illus. Michael Foreman), read by yours truly.</p>
+<p><strong>First published from August to September 2021, republished on my website June 2022</strong></p>
+<h2 id="introduction">Introduction</h2>
+<p>I originally released each episode separately, and wrote short summary blurbs for each (included in the download package, and below), but it seemed a waste of time to re-separate them since I&rsquo;ve recorded the whole book. There&rsquo;s a sequel, Shakespeare Stories II, which I will soon start recording and releasing episodically here (that makes more sense).</p>
+<p>Shakespeare was a great writer and dramatist, if rather stuffy. Provided you can get past Ye Olde Englyshe, though, his original plays read like the best of modern thrillers, as they are solely dialogue. His usually rhymeless iambic pentameter is quite difficult for even native speakers, so for casual enjoyment or a child&rsquo;s introduction to this literary giant, I recommend a retelling, and Leon Garfield&rsquo;s 1985/1995 version is very, very good. I grew up reading this book, so it&rsquo;s quite special to me (though my taste has adapted over the years into a preference for the originals). It was part of the <a href="https://www.sonlight.com/">Sonlight Homeschool Curriculum</a> my parents used for our education, and was most useful for understanding the gist of the original plays when I later studied them.</p>
+<blockquote>
+<p>Seriously, though! I found a more modern retelling in a <a href="https://en.wikipedia.org/wiki/Red_telephone_box#Libraries">phonebox library</a> (Andrew Matthews, 2003) and it was unreadably childish, like a lot of kid&rsquo;s stuff is these days. 👴 &ldquo;Back in my day, I&rsquo;d fight my brothers with  swords and bows, made from sticks. Then we&rsquo;d play with ugly spiky robot action figures and read my Dad&rsquo;s crime thriller novels.&rdquo;</p>
+</blockquote>
+<p>Characters&rsquo; speech is lifted verbatim from the original plays, but their longuer boringue <em>[sic]</em> monologues are replaced with modern prose and window dressing. Michael Foreman&rsquo;s watercolour illustrations are scarily good, too.</p>
+<figure><img src="/img/Michael%20Foreman%20Harpy%20%28Tempest%29.jpg"
+         alt="Harpy illustration from The Tempest, by" height="400"/><figcaption>
+            <p>Harpy illustration from <em>The Tempest</em>, by
+                    <a href="https://literature.britishcouncil.org/writer/michael-foreman">Michael Foreman</a></p>
+        </figcaption>
+</figure>
+
+<h2 id="download-shakespeare-stories">Download <em>Shakespeare Stories</em></h2>
+<p>The album is available in MP3 <a href="https://drive.google.com/drive/folders/1-tu5rBOW7xw2loCUbcZLiu9ey-MetN9B?usp=sharing">on Google Drive</a>; audio files are fully tagged, there&rsquo;s album info, etc.</p>
+<p>If you want an eBook version, I recommend downloading it from the <a href="https://z-lib.org/">Z-Library</a> or Archive.org <sup><a href="https://archive.org/details/shakespearestori0000garf_d5a0">1</a>, <a href="https://archive.org/details/shakespearestori0000garf/">2</a>, <a href="https://archive.org/details/shakespearestori00leon_0">3</a></sup>. Note that piracy may be legally questionable in your jurisdiction (but when has that stopped anyone?). If you like it, you might find a physical copy in your local library. <del>I believe it is out of print, but</del> It&rsquo;s available quite cheaply on eBay as either the 1990s 2 volumes, or Amazon has the 2015 single volume republished version.</p>
+<h2 id="listen-online-to-shakespeare-stories">Listen Online to <em>Shakespeare Stories</em></h2>
+<p>Hosted on <a href="https://hearthis.at/">HearThis.at</a>; scroll down to the next section if you want to &ldquo;read the back of the cereal box&rdquo; as you listen! There are 12 chapters, each 40mins-1h long, plus Introduction (total: 9h42min11s)
+
+
+
+
+	<div class="embed podcast-hearthis">
+		<iframe 
+		scrolling="no" 
+		frameborder="0" 
+		allowtransparency
+		
+			id="hearthis_at_user_215673-10111066"
+			src="https://hearthis.at/set/215673-10111066/embed/?hcolor=&color=&autoplay=0&css="
+		
+		
+			height="640"
+		
+		width="100%" 
+		>
+		</iframe>
+	</div>
+
+
+
+	<script>
+		console.log("Loaded external content from HearThis.at");
+	</script>
+
+</p>
+<h2 id="dramatic-summaries">Dramatic Summaries</h2>
+<h3 id="01-shakespeare-stories---introduction">01 Shakespeare Stories - Introduction</h3>
+<p>Introduction to my reading of Shakespeare Stories by Leon Garfield, read from the dust-jacket of the book. I wish you could see the beautiful illustrations!</p>
+<p><em>Recorded 11/07/2021 in Darren&rsquo;s car, while waiting for Adrian&rsquo;s violin lesson.</em></p>
+<h3 id="01-twelfth-night">01 Twelfth Night</h3>
+<p>Shakespeare&rsquo;s 12th Night, retold by Leon Garfield, read by Darren J. de Lima. Shakesperean comedy of love, despair and mistaken identities. The Duchess falls for the handsome messenger bearing the Duke&rsquo;s courtship; the problem is, the messenger is Viola, a grieving sister who has fallen in love with the Duke she works for. Everyone plays the fool, the circle of lovers goes round and round, and Viola&rsquo;s resurrected brother Sebastian is the puzzle&rsquo;s missing piece.</p>
+<p><em>Recorded 6pm, 30/08/2021, the second play I read to my Grandma Iris as she lay on her deathbed.</em></p>
+<h3 id="02-king-lear">02 King Lear</h3>
+<p>Shakeseare&rsquo;s King Lear, retold by Leon Garfield, read by Darren J. de Lima. His most tragic tragedy, a cruel world and ungrateful daughters destroy their father, poor old King Lear. <strong>May be unsuitable for children</strong> due to strong violence and tragic conflic between children and parents.</p>
+<p><em>Recorded 27/09/2021 in Grandma&rsquo;s empty house. By the end, I felt very sad.</em></p>
+<h3 id="03-the-tempest">03 The Tempest</h3>
+<p>Shakeseare&rsquo;s The Tempest, retold by Leon Garfield, read by Darren J. de Lima. Prospero, betrayed Duke of Milan, has schooled himself in sorcery, and now that his enemies are within his grasp, shows them mercy with many a magical trick. Shakespearean high fantasy.</p>
+<p><em>Recorded 21, 28/07/2021 in Darren&rsquo;s car.</em></p>
+<h3 id="04-the-merchant-of-venice">04 The Merchant of Venice</h3>
+<p>Shakespeare&rsquo;s The Merchant of Venice, retold by Leon Garfield, read by Darren J. de Lima. A Christian merchant takes a loan from a Jew to help a young lover in need. In this allegorical commentary on mercy and forgiveness versus strictly following The Law, Shakespeare contrasts Christian and (caricatured) Jewish philosophy.</p>
+<p><em>Recorded 31/07, 01/08/2021 on Grandma&rsquo;s doorstep and house, with a cold.</em></p>
+<h3 id="05-the-taming-of-the-shrew">05 The Taming of the Shrew</h3>
+<p>Shakespeare&rsquo;s The Taming of the Shrew, retold by Leon Garfield, read by Darren J. de Lima. Classic Shakesperean comedy with innuendo, love triangles within love triangles, a multitude of quirky suitors disguised as each other, and a fiery daughter who can&rsquo;t find a husband. This play-within-a-play shows its age with its peculiar brand of Elizabethan humour.</p>
+<p><em>Recorded 11am, 5pm, 30/08/2021, reading to my Grandma Iris as she lay sick in bed, the day before she died; I read this one first, and 12th Night second.</em></p>
+<h3 id="06-king-richard-ii">06 King Richard II</h3>
+<p>Shakeseare&rsquo;s King Richard II, retold by Leon Garfield, read by Darren J. de Lima. The fall of Richard II, from frivolous king to defeated wretch, at the hands of righteous rebels.</p>
+<p><em>Recorded 17/08/2021, 3 of 3 in Ioana&rsquo;s room at Grandma&rsquo;s, 7:50-8:30pm</em></p>
+<h3 id="07-king-henry-iv-part-one">07 King Henry IV, Part One</h3>
+<p>Shakespeare&rsquo;s King Henry IV, Part One, retold by Leon Garfield, read by Darren J. de Lima. Continuing where King Richard II leaves off, Bolingbroke, former paragon of honour, is the dishonourable King Henry IV. He admires his enemy, the honourable rebel Harry Hotspur, but must pit his prodigal son, also called Harry, and his knavish companions in desperate battle against him. Features a very good picture of war, honour and comic relief from the viewpoint of the legendary Falstaff and the common soldiers.</p>
+<p><em>Recorded 1:30-2:30pm, 31/08/2021, while reading to my Grandma Iris; she enjoyed my reading to her, and this is a very good play. She passed away unexpectedly at 5pm that afternoon. Requiescat in pace.</em></p>
+<h3 id="08-hamlet">08 Hamlet</h3>
+<p>First read to the Ioanas Feb. 2021; I was a &ldquo;good distraction&rdquo; and I&rsquo;m very proud of that.
+Shakespeare&rsquo;s Hamlet, Prince of Denmark, retold by Leon Garfield, read by Darren J. de Lima. Shakespeare&rsquo;s greatest play, Hamlet holds death in his hand and ponders revenge, &ldquo;To be, or not to be?&rdquo;, before falling victim to the murderous poison of Castle Elsinore.</p>
+<p><em>I&rsquo;ll swear I recorded it previously, but this version recorded 2nd on 27/09/2021 in the empty bedroom in Grandma&rsquo;s empty house.</em></p>
+<h3 id="09-romeo--juliet">09 Romeo &amp; Juliet</h3>
+<p>Shakeseare&rsquo;s Romeo &amp; Juliet, retold by Leon Garfield, read by Darren J. de Lima. <strong>Might not be suitable for children</strong> due to sex references in this famous romance drama. Romeo and Juliet, two star-crossed lovers, live and die for their parents&rsquo; enmity.</p>
+<p><em>Recorded 17/08/2021, 2 of 3 in Ioana&rsquo;s room at Grandma&rsquo;s, 4:50-7:30pm</em></p>
+<h3 id="10-othello">10 Othello</h3>
+<p>Shakeseare&rsquo;s Othello, retold by Leon Garfield, read by Darren J. de Lima. <strong>Might not be suitable for children</strong> due to adult themes (adultery, jealousy, murder) in the original drama. Othello the Moor, mighty General of Venice, is brought low by his scheming steward Iago, and his heart drives him to murder his wife.</p>
+<p><em>Recorded 31/07/2021, sweaty, in Darren&rsquo;s car.</em></p>
+<h3 id="11-a-midsummer-nights-dream">11 A Midsummer Night&rsquo;s Dream</h3>
+<p>First read to Ioanica Jan. 2021; she did well concentrating, as the story dragged on a little.
+Shakespeare&rsquo;s A Midsummer Night&rsquo;s Dream, retold by Leon Garfield, read by Darren J. de Lima. Fairy madness one midsummer night, as the Fairy King and Queen manipulate mortals for their amusement. Helena loves Demetrius, who loves Hermia, who love Lysander, who, thanks to meddlesome magic, loves Helena. And an innocent bystander to this roundabout, Bottom, gains the head of a donkey.</p>
+<p><em>Recorded 3rd on 27/09/2021, the first Shakespeare I read to Little One, and possibly my last ever recording in Grandma&rsquo;s house.</em></p>
+<h3 id="12-macbeth">12 Macbeth</h3>
+<p>Shakeseare&rsquo;s Macbeth, retold by Leon Garfield, read by Darren J. de Lima with terrible Scottish accents. Macbeth and his Lady are led into murder and conspiracy when they try to fulfill the witches&rsquo; prophecy themselves in medieval Scotland.</p>
+<p><em>Recorded 17/08/2021, 1 of 3 in Ioana&rsquo;s room at Grandma&rsquo;s</em></p>
+      </article>
+    </section>
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+
+            <footer class="ui basic center aligned segment" style="background-color: transparent;">
+              
+              <p>© 2016 - 2022 Of Machines and Men.
+              
+              
+                Site last updated: <a href="https://github.com/robot-one/robot-one.github.io/commits/" target="_blank">22 June 2022</a>
+              
+              </p>
+              <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+
+              
+              <p>Site is a work-in-progress</p>
+              
+            </footer>
+          </div>
+        </section>
+        <section class="back">
+          <div class="dream-max-width">
+            <header class="ui basic very padded segment dream-header">
+  
+	<div class="ui small image">
+			<img src="/img/RobotOne.png" alt="avatar" />
+		</div>
+	
+  
+
+  <div class="content">
+    <h1 class="ui extra-large header master">Of Machines and Men<span class="sub header master">Handcrafted heroes and legends<br>
+		<noscript style="color: red;">Please enable JavaScript for this website to work properly.</noscript>
+      </span>
+    </h1>
+
+
+
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+
+    
+
+    
+
+    
+    
+
+    <div class="tags-with-dropdown">
+      <div class="ui accordion">
+        <div class="title">
+          <div class="ui horizontal list">
+            <a class="item dropdown" href="#">
+              <i class="chevron right icon dropdown-icon"></i>
+            </a>
+          </div>
+          <div class="dream-tags">
+          
+          
+          
+            <a class="ui label" href="/tags/art/" title="Art">
+              #Art
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/child-education/" title="Child Education">
+              #Child Education
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/downloads/" title="Downloads">
+              #Downloads
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/hacks/" title="Hacks">
+              #Hacks
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/journal/" title="Journal">
+              #Journal
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/literature/" title="Literature">
+              #Literature
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/music/" title="Music">
+              #Music
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/news/" title="News">
+              #News
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/plans/" title="Plans">
+              #Plans
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/poetry/" title="Poetry">
+              #Poetry
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/politics/" title="Politics">
+              #Politics
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/queen-elizabeth-ii/" title="Queen Elizabeth II">
+              #Queen Elizabeth II
+            </a>
+          
+          </div>
+        </div>
+        <div class="content">
+    
+          <div class="dream-tags" style="margin-left: 1.5rem;">
+          
+          
+          
+            <a class="ui label" href="/tags/robotone/" title="RobotOne">
+              #RobotOne
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/romanian/" title="Romanian">
+              #Romanian
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/sci-fi/" title="Sci-fi">
+              #Sci-fi
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/security-research/" title="Security Research">
+              #Security Research
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/short-stories/" title="Short Stories">
+              #Short Stories
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/telephone/" title="Telephone">
+              #Telephone
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/test/" title="Test">
+              #Test
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/todo/" title="TODO">
+              #TODO
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/toys/" title="Toys">
+              #Toys
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/webdev/" title="WebDev">
+              #WebDev
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/work/" title="Work">
+              #Work
+            </a>
+          
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    
+
+    
+  </div>
+</header>
+
+
+<div class="ui relaxed grid dream-grid dream-back">
+  
+  
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">Guest Authors</div>
+      <p>Friends of mine are welcome to contribute their knowledge to the site! Here&rsquo;s a list of those who have contributed:</p>
+<table>
+<thead>
+<tr>
+<th>Avatar</th>
+<th>Username</th>
+<th>Bio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/img/authors/Ionicannon.jpg" alt="Avatar, guest Ionicannon" style="border-radius: 50%; display: block;"></td>
+<td>Ionicannon</td>
+<td>My niece, with an Eastern European connection and a growing interest in literature and art.</td>
+</tr>
+</tbody>
+</table>
+
+    </article>
+  </div>
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">Servers</div>
+      <p>I enjoy systems administration, so I manage a few servers and websites.</p>
+<h2 id="other-sites">Other sites</h2>
+<ul>
+<li><a href="https://dragonsnotincluded.github.io">dragonsnotincluded.github.io</a> - Website for my friend&rsquo;s D&amp;D podcast.</li>
+</ul>
+<h2 id="my-lan">My LAN</h2>
+<p>Chances are if we are on the same Local Area Network (LAN), I&rsquo;m serving something! These are served from my Raspberry Pi homeserver, and currently only accessible on my home network. For your convenience, here are the services you can access (you&rsquo;ll have to ask me for the passwords in person; no way I&rsquo;m putting them in cleartext on the web):</p>
+<ul>
+<li><a href="http://raspberrypi:8080/">qBittorrent server</a> - a torrent client with which we can remotely download public domain media via the Bittorrent, without leaving our PCs on for hours. <a href="https://www.qbittorrent.org/download.php">Homepage</a></li>
+<li><a href="http://raspberrypi:8081/">filebrowser</a> - access downloaded torrents or files stored on the homeserver&rsquo;s Network Attached Storage (NAS) via any web browser. Looks like Google Drive, but is fully self-hosted. <a href="https://github.com/filebrowser/filebrowser">GitHub Repository</a></li>
+<li><a href="http://raspberrypi:80">Aria2Ng server</a> - Don&rsquo;t feel like leaving your PC on all night for that big download? Remotely download media to the NAS, by torrents and many other protocols, too. <a href="https://github.com/mayswind/AriaNg">GitHub Repository</a></li>
+<li><a href="http://raspberrypi:8082/">WireguardUI</a> - still not fully functional, a frontend for the Wireguard VPN protocol, so that eventually I can host my own VPN. <a href="https://github.com/EmbarkStudios/wg-ui">GitHub Repository</a></li>
+<li><a href="http://raspberrypi:81/">AdGuard Home</a> - <strong>[Currently Disabled]</strong> Network-wide ad blocker and DNS server. Not something the end user needs to worry about, save that they won&rsquo;t see advertising. <a href="https://github.com/AdguardTeam/AdGuardHome">GitHub Repository</a></li>
+<li><a href="http://raspberrypi:8083/">Navidrome</a> - <strong>[Currently Disabled]</strong> Spotify replacement, but fully self-hosted with my own music. <a href="https://www.navidrome.org/">Homepage</a></li>
+<li>Samba (SMB) access to the 500GB NAS is also enabled. You can access it from <code>Windows Explorer &gt;&gt; My Computer (This PC) &gt;&gt; Add a network location</code> or the equivalent on MacOS/iOS/Linux/Android.</li>
+<li>SSH (command line) and SFTP (filesystem) access are also enabled, accessible via the appropriate clients, e.g. [WinSCP]</li>
+</ul>
+<h2 id="your-lan">Your LAN</h2>
+<p>These are served from my PC, and you can access them as long as we&rsquo;re both connected.</p>
+<ul>
+<li><a href="http://vortigern:80">Cerberus FTP Server</a> - file server.</li>
+<li><a href="https://lanxchange.com/">LanXChange</a> - Apple Airdrop alternative. We can both run the clients and share individual files easily between PC, Mac, Linux, Android.</li>
+<li><a href="http://vortigern:8081">filebrowser</a> - I also occasionally run filebrowser to turn my PC into a &ldquo;Google Drive&rdquo;.</li>
+</ul>
+
+    </article>
+  </div>
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">WHOIS running this site?</div>
+      <img src="/img/authors/Darthagnon.jpg" alt="Avatar, admin Darthagnon" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;" height="180">
+<p>Hello! The site admin is Darthagnon.</p>
+<p>This is my blog and technical portfolio, where I seek to inform, entertain, and share my handicrafts and knowledge with you.</p>
+<h2 id="whats-with-the-username">What&rsquo;s with the username?</h2>
+<p>I like to go by the Sith version of the 4th Musketeer, D&rsquo;Artagnan.</p>
+<h2 id="contact">Contact</h2>
+<p>Questions? Comments? You can reach me on the social media linked. Feel free to drop me a message. I&rsquo;ll try to get back to you shortly. <strong>To prevent spam, I have added [square brackets] to some of my socials; if you&rsquo;re not a robot, you can click the links and remove the [brackets].</strong></p>
+<h2 id="src">src</h2>
+<p>Site source code is available on <a href="https://github.com/robot-one/robot-one.github.io">GitHub</a>, as well as offline backups on my home systems. Snapshots are also available on <a href="https://web.archive.org/web/*/robot-one.github.io">Archive.org</a> and <a href="https://archive.today/3lBgJ">Archive.today</a>. The site uses 2 themes, <a href="https://github.com/Darthagnon/hugo-theme-dream">Hugo Theme Dream</a> and <a href="https://github.com/Darthagnon/hugo-easy-gallery">Hugo Easy Gallery</a>, and is built with the <a href="https://gohugo.io/">Hugo</a> static site generator.</p>
+
+    </article>
+  </div>
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">Friends</div>
+      <p>Other blogs and people I follow or recommend:</p>
+<ul>
+<li><img src="/img/logos/wololo2.png" height="16"> <a href="https://wololo.net/">Wololo.net</a>; the Playstation Portable hacking blog that first got me interested in computer science and security research back in 2013ish. The <a href="https://wololo.net/talk/">/talk forum</a> used to be a vibrant community full of hobby programmers. There&rsquo;s also the separate <a href="https://wololo.net/forum/">Wagic forum</a>, which was focused on developing the digital card game <a href="https://github.com/WagicProject/wagic/releases">Wagic: the Homebrew?!</a>. Run by <a href="https://twitter.com/frwololo">@frwololo</a></li>
+<li><img src="/img/logos/Explorium logo 2016-17_300x300.jpg" height="16"> <a href="https://www.explorium.co.uk/">Explorium</a>; my former employers, a growth-mindset-focused creative learning centre and training provider for Primary and Secondary school children. We did some incredible work there, and helped many kids discover their creative potential. Check them out!</li>
+<li><strong>Artists I know:</strong> <a href="https://www.facebook.com/katiegrovesillustration">Katie Groves Illustration</a>, <a href="https://www.instagram.com/ollyjordanartist/">Olly Jordan</a>, <a href="https://www.thedrystones.co.uk/">The Drystones</a>, <a href="https://www.instagram.com/jess_parnell_arty/">Jess Parnell</a></li>
+<li><img src="/img/logos/Dragons Not Included favicon.png" height="16"> <a href="https://dragonsnotincluded.podbean.com/">Dragons Not Included</a>, a D&amp;D and roleplaying podcast run by my best friend. <em>Join the crew of the Dragons Not Included podcast as they roll, crit and laugh their way through the Wrath of the Righteous tabletop role playing adventure.</em> Subscribe via <a href="https://feed.podbean.com/dragonsnotincluded/feed.xml">RSS</a> or anywhere else podcasts are syndicated.</li>
+<li><img src="/img/logos/CK's Tech News.jpg" height="16"> <a href="https://chef-koch.bearblog.dev/">CHEF-KOCH&rsquo;s Technology News</a>, a technology news outlet (also on <a href="https://twitter.com/CKsTechNews">Twitter</a>, <a href="https://old.reddit.com/r/CKsTechNews/">Reddit</a> and <a href="https://opencollective.com/cks-technology-news#about">other social media</a>) where CHEF-KOCH reports on the cutting edge of technology in a concise, readable and helpful manner. Head and shoulders above all other tech news these days.</li>
+<li><img src="/img/logos/Howl's project logo.png" height="16"> <a href="https://www.howlsproject.com/">Howl&rsquo;s Project</a>; based in Turkey, a Studio Ghibli anime-themed fashion store run by a friend of mine.</li>
+<li><img src="/img/logos/CSRINRU.ico" height="16"> <a href="https://cs.rin.ru/">CS.RIN.RU</a>, the Famous Russian Forum for DRM-free videogames. Information on every game on Steam/GOG/Epic and beyond, inhabited by knowledgeable users and freelance hackers.</li>
+<li><img src="/img/logos/FitGirl_LV (cropped-icon-192x192).jpg" height="16"> <a href="https://fitgirl-repacks.site/">FitGirl Repacks</a>, the ONLY official site for FitGirl Repacks. Despite the odd name, it&rsquo;s the best source for DRM-free videogame installers these days. See also <img src="/img/logos/MSQ Repacks.png" height="16"> <a href="https://masquerade.site/">Masquerade</a>, who is an upcoming repacker.</li>
+</ul>
+
+    </article>
+  </div>
+  
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment">
+      <div class="ui medium header">Social Links</div>
+      <nav class="ui secondary menu dream-menu dream-socials">
+  
+  <a class="item" href="/index.xml">
+    <i class="large rss square icon" title="RSS"></i>
+  </a>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+    <a class="item" href="https://twitter.com/[D]JdeLima" target="_blank">
+      <i class="large twitter icon" title="Twitter"></i>
+    </a>
+  
+    <a class="item" href="https://facebook.com/[d]arren.delima.5" target="_blank">
+      <i class="large facebook icon" title="Facebook"></i>
+    </a>
+  
+    <a class="item" href="https://messenger.com/[d]arren.delima.5" target="_blank">
+      <i class="large comment icon" title="Facebook Messenger"></i>
+    </a>
+  
+    <a class="item" href="https://www.youtube.com/channel/UCt2Vp1qaoT_YoWfuPH_Mi5g" target="_blank">
+      <i class="large youtube icon" title="YouTube"></i>
+    </a>
+  
+    <a class="item" href="https://instagram.com/[d]arthagnon" target="_blank">
+      <i class="large instagram icon" title="Instagram"></i>
+    </a>
+  
+    <a class="item" href="https://www.linkedin.com/in/[d]arrendelima" target="">
+      <i class="large linkedin icon" title="Linkedin"></i>
+    </a>
+  
+    <a class="item" href="https://github.com/darthagnon" target="_blank">
+      <i class="large github icon" title="GitHub"></i>
+    </a>
+  
+    <a class="item" href="https://gitlab.com/Darthagnon" target="_blank">
+      <i class="large gitlab icon" title="GitLab"></i>
+    </a>
+  
+    <a class="item" href="https://drive.google.com/drive/folders/blablabla?usp=sharing" target="_blank">
+      <i class="large download icon" title="Google Drive/Cloud"></i>
+    </a>
+  
+    <a class="item" href="https://t.me/[d]arthagnon" target="_blank">
+      <i class="large telegram icon" title="Telegram"></i>
+    </a>
+  
+    <a class="item" href="https://www.robot-one.blogspot.co.uk" target="_blank">
+      <i class="large chain icon" title="Old website"></i>
+    </a>
+  
+    <a class="item" href="https://hearthis.at/darren-de-lima/" target="_blank">
+      <i class="large microphone icon" title="HeartThis.at"></i>
+    </a>
+  
+    <a class="item" href="https://www.last.fm/user/Darthagnon" target="_blank">
+      <i class="large lastfm icon" title="Last.fm"></i>
+    </a>
+  
+    <a class="item" href="https://matrix.to/#/@darthagnon:matrix.org" target="_blank">
+      <i class="large at icon" title="Matrix"></i>
+    </a>
+  
+    <a class="item" href="mailto:[d]arren.delima@yahoo.co.uk" target="_blank">
+      <i class="large envelope icon" title="Email 1"></i>
+    </a>
+  
+    <a class="item" href="mailto:[d]arthagnone@gmail.com" target="_blank">
+      <i class="large envelope icon" title="Email 2"></i>
+    </a>
+  
+    <a class="item" href="#ZgotmplZ" target="_blank">
+      <i class="large lock icon" title="qTox"></i>
+    </a>
+  
+  
+</nav>
+
+    </article>
+  </div>
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+  </div>
+
+  
+</div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="/js/3p/jquery.min@3.6.0.js"></script>
+    
+    <script src="/js/3p/semantic.min@2.4.2.js"></script>
+    
+
+    
+    <div class="ui segment" id="dream-search">
+  <div class="ui search">
+    <div class="ui transparent input">
+      <input class="prompt" type="text" placeholder="Search" />
+    </div>
+    <div class="results"></div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $.getJSON('https:\/\/robot-one.github.io\//index.json', function (data) {
+      $('.ui.search').search({
+        source: data,
+        searchFields: ['title'],
+        showNoResults: false,
+      })
+    })
+  })
+</script>
+<script src="/js/search.js"></script>
+
+    
+
+    
+
+    <script>
+  window.background = "#f7f7f7"
+  window.defaultDark =  null 
+  window.backgroundDark = "black"
+  window.backgroundImageDark = "/img/background-dark.jpg"
+  window.darkNav =  null 
+  window.maxTags =  12 
+  window.hasTwitterEmbed =  null 
+  window.fixedNav =  true 
+
+  if (window.hasTwitterEmbed) {
+    
+    window.twttr = (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {}
+      if (d.getElementById(id)) return t
+      js = d.createElement(s)
+      js.id = id
+      js.src = 'https://platform.twitter.com/widgets.js'
+      fjs.parentNode.insertBefore(js, fjs)
+
+      t._e = []
+      t.ready = function (f) {
+        t._e.push(f)
+      }
+
+      return t
+    })(document, 'script', 'twitter-wjs')
+  }
+</script>
+
+  <script src="/js/3p/jquery.overlayScrollbars.min@1.13.1.js"></script>
+    <script src="/js/main.js"></script>
+  
+<script src="/js/header.js"></script>
+<script src="/js/theme.js"></script>
+
+    
+
+
+
+<script src="/js/scrollToTop.js"></script>
+
+
+
+<script src="/js/3p/html2canvas.min@1.0.0-rc.1.js"></script>
+
+  <script src="/js/post.js" defer></script>
+
+
+    
+
+    
+  </body>
+</html>

@@ -2,13 +2,64 @@
   height: 92px;
   width: 100%;
   background-color: #12A3EB;
-  background-image: url(/img/wololo/bg_header.gif);
+  background-image: url(/img/logos/wololo/bg_header.gif);
   border-radius: 5px;
   color: #FFFFFF;
 }
 
 .markdown-body h1 {
   border-bottom: initial;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#right {
+    background: url(/img/logos/wololo/wololo-right.png) right top no-repeat;
+    width: 386px;
+    padding: 0;
+    float: right;
+    height: 107px;
+}
+#header #left {
+    float: left;
+    margin-left: -250px;
+}
+
+#header #bottom {
+    width: 100%;
+    padding: 0;
+    height: 45px;
+    overflow: hidden;
+}
+
+/* Change image on hover, https://stackoverflow.com/a/19967062 */
+#tuxie {
+    width: 29px; height: 18px;
+    background: url('/img/logos/wololo/icon_fontsize.gif') no-repeat left top;
+}
+#tuxie:hover { background-position: 0px -18px }
+
+ul.linklist li {
+    display: block;
+    list-style-type: none;
+    /*width: auto;
+    margin-right: 5px;
+    font-size: 1.1em;
+    line-height: 32px;*/
+    font-family: sans-serif;
+
+  }
+
+.linklist a:link {
+    color: #105289 !important;
+}
+.linklist a:active {
+    color: #368AD2 !important;
+}
+.linklist a:hover {
+    color: #D31141 !important;
 }
 
 /* doesn't work
@@ -56,3 +107,35 @@ a.forumtitle {
 a:not(.item, .ui.button) {
     color: #2a6496;
 }
+
+.logo-transition a::before {
+    margin-right: 3px;
+    content: '{';
+    color: #FFF;
+    line-height: 16px;
+    font-family: 'BebasNeueRegular','Arial','Helvetica',sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-transform: translateX(50px);
+    -moz-transform: translateX(50px);
+    transform: translateX(50px);
+}
+
+.logo-transition a::before, .logo-transition a::after {
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s;
+}
+
+/* use with html, gives a nice animation as used by wololo.net/talk (2018) and forum.mobilism.org
+<div class="logo-transition">
+  <a class="logo" href="">
+    ::before
+    "wololo"
+    ::after
+  </a>
+</div>
+*/

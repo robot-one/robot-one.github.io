@@ -103,6 +103,12 @@
     
     <link rel="stylesheet" href="/css/custom.css" />
     
+    
+    <style>
+      .markdown-body img {
+      background-color: initial !important;
+    }
+    </style>
   </head>
 
   <body class="default">
@@ -194,6 +200,10 @@
 <div class="dream-404-container">
   <div class="ui basic center aligned segment">
     
+    <h1 class="ui extra-large header master">
+        404
+        <span class="sub header master">Error - page not found</span>
+      </h1>
       <h1 class="ui header">
         Oops...You are lost in dream.
         <span class="sub header">Don&#39;t worry though, click the button below to wake up.</span>
@@ -208,9 +218,12 @@
 
             <footer class="ui basic center aligned segment" style="background-color: transparent;">
               
-              <p>© 2016 - 2022 Of Machines and Men</p>
+              <p>© 2016 - 2022 Of Machines and Men.
               
-
+              
+                Site last updated: <a href="https://github.com/robot-one/robot-one.github.io/commits/" target="_blank">22 June 2022</a>
+              
+              </p>
               <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
 
               
@@ -230,8 +243,9 @@
   
 
   <div class="content">
-    <h1 class="ui extra-large header">Of Machines and Men<span class="sub header">Handcrafted heroes and legends</span>
-	  <noscript>Please enable JavaScript for this website to work properly.</noscript>
+    <h1 class="ui extra-large header master">Of Machines and Men<span class="sub header master">Handcrafted heroes and legends<br>
+		<noscript style="color: red;">Please enable JavaScript for this website to work properly.</noscript>
+      </span>
     </h1>
 
 
@@ -285,13 +299,25 @@
     
       
     
+      
+    
     
 
     
 
     
+
     
     
+
+    <div class="tags-with-dropdown">
+      <div class="ui accordion">
+        <div class="title">
+          <div class="ui horizontal list">
+            <a class="item dropdown" href="#">
+              <i class="chevron right icon dropdown-icon"></i>
+            </a>
+          </div>
           <div class="dream-tags">
           
           
@@ -366,6 +392,12 @@
               #Queen Elizabeth II
             </a>
           
+          </div>
+        </div>
+        <div class="content">
+    
+          <div class="dream-tags" style="margin-left: 1.5rem;">
+          
           
           
             <a class="ui label" href="/tags/robotone/" title="RobotOne">
@@ -410,8 +442,8 @@
           
           
           
-            <a class="ui label" href="/tags/todo/" title="todo">
-              #todo
+            <a class="ui label" href="/tags/todo/" title="TODO">
+              #TODO
             </a>
           
           
@@ -422,11 +454,21 @@
           
           
           
+            <a class="ui label" href="/tags/webdev/" title="WebDev">
+              #WebDev
+            </a>
+          
+          
+          
             <a class="ui label" href="/tags/work/" title="Work">
               #Work
             </a>
           
           </div>
+    
+        </div>
+      </div>
+    </div>
     
 
     
@@ -682,7 +724,7 @@
   window.backgroundDark = "black"
   window.backgroundImageDark = "/img/background-dark.jpg"
   window.darkNav =  null 
-  window.maxTags =  null 
+  window.maxTags =  12 
   window.hasTwitterEmbed =  null 
   window.fixedNav =  true 
 

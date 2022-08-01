@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>todo on Of Machines and Men</title>
+    <title>TODO on Of Machines and Men</title>
     <link>https://robot-one.github.io/tags/todo/</link>
-    <description>Recent content in todo on Of Machines and Men</description>
+    <description>Recent content in TODO on Of Machines and Men</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 28 Jun 2022 00:18:14 +0100</lastBuildDate><atom:link href="https://robot-one.github.io/tags/todo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jul 2022 08:12:00 +0100</lastBuildDate><atom:link href="https://robot-one.github.io/tags/todo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://robot-one.github.io/posts/220709-upcoming/</link>
+      <pubDate>Sat, 09 Jul 2022 08:12:00 +0100</pubDate>
+      
+      <guid>https://robot-one.github.io/posts/220709-upcoming/</guid>
+      <description>&lt;h1 id=&#34;revisionist-history-upcoming-articles&#34;&gt;Revisionist History: upcoming articles&lt;/h1&gt;
+&lt;p&gt;A list to cross off, to track articles that I&amp;rsquo;m adding here, and their chronology.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Work Experience</title>
       <link>https://robot-one.github.io/posts/220628-work-experience/</link>
@@ -18,29 +28,29 @@
     
     <item>
       <title>Cowboys &amp; Aliens</title>
-      <link>https://robot-one.github.io/posts/cowboys-aliens/</link>
+      <link>https://robot-one.github.io/posts/220621-cowboys-aliens/</link>
       <pubDate>Tue, 21 Jun 2022 09:24:06 +0100</pubDate>
       
-      <guid>https://robot-one.github.io/posts/cowboys-aliens/</guid>
+      <guid>https://robot-one.github.io/posts/220621-cowboys-aliens/</guid>
       <description>&lt;p&gt;I woke up early after dreaming a dream. Here&amp;rsquo;s the result:&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Work I&#39;ve been doing</title>
-      <link>https://robot-one.github.io/posts/work-05-2022/</link>
+      <link>https://robot-one.github.io/posts/220525-work-05-2022/</link>
       <pubDate>Wed, 25 May 2022 06:07:42 +0100</pubDate>
       
-      <guid>https://robot-one.github.io/posts/work-05-2022/</guid>
+      <guid>https://robot-one.github.io/posts/220525-work-05-2022/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been very quiet, haven&amp;rsquo;t I?&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Pictured: boxed Star Wars Despecialized DVDs I made for a friend; only Star Wars (IV: A New Hope) was ready for 4th May 2022&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Story</title>
-      <link>https://robot-one.github.io/posts/story/</link>
+      <link>https://robot-one.github.io/posts/160529-story/</link>
       <pubDate>Sun, 29 May 2016 00:00:07 +0000</pubDate>
       
-      <guid>https://robot-one.github.io/posts/story/</guid>
+      <guid>https://robot-one.github.io/posts/160529-story/</guid>
       <description>&lt;p&gt;&amp;ldquo;A Tale is told&lt;/p&gt;
 &lt;p&gt;Of Machines and Men,&lt;/p&gt;</description>
     </item>

@@ -1,7 +1,7 @@
 ---
 title: The Queen's Platinum Jubilee
 date: 2022-06-03T19:26:56+01:00
-lastmod: 2022-06-03T19:26:56+01:00
+lastmod: 2022-09-09T17:40
 author: Darthagnon
 avatar: /img/authors/Darthagnon.jpg
 authorlink: https://robot-one.github.io
@@ -14,6 +14,7 @@ tags:
   - Politics
   - Music
   - Queen Elizabeth II
+  - WebDev
 nolastmod: true
 draft: false
 ---

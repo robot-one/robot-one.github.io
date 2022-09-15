@@ -6,8 +6,8 @@ author: Darthagnon
 avatar: /img/authors/Darthagnon.jpg
 authorlink: https://robot-one.github.io
 cover: /img/somerset-nature-art.jpg
-# images:
-#   - /img/cover.jpg
+images:
+  - /img/somerset-nature-art.jpg
 categories:
   - Art
   - Events and Seasons
@@ -33,7 +33,7 @@ Always over-prepared, the old bag full of arts equipment, fountain pens, and pag
 
 ## More info about the group
 
-{{< figure src="/img/somerset-art-group-photos-220914.jpg" alt="Overview of Somerset Art Group exhibition" title="Overview of Somerset Art Group exhibition" attr="Photo by Colin Smith" >}}
+{{< figure src="/img/somerset-art-group-photos-220914.jpg" alt="Overview of Somerset Art Group exhibition" title="Overview of Somerset Art Group exhibition" attr="Photo by Colin Smith" link="/img/somerset-art-group-photos-220914.jpg" >}}
 
 The [YEAST Scrap Store](https://yeastscrapstore.co.uk/) in Glastonbury, Somerset, is a community hub for creative events, and the HQ for an art group started as part of the [Engage Somerset](https://somerset.referralwebsite.co.uk/) initiative ([more info](https://pluss.org.uk/engage-somerset/engage-somerset-is-officially-launched/)). 
 

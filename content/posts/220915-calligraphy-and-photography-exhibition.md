@@ -21,12 +21,12 @@ tags:
 draft: false
 ---
 
-Yesterday, there was a photo exhibition by the Somerset Art Group. It is a group started by colleagues and good friends from Seetec-Pluss, and I was invited to help out and exhibit there. The above photos are a collage of my work that was exhibited.
+Yesterday, there was a photo exhibition by the Somerset Art Group. It is a group started by colleagues and good friends from Seetec-Pluss, and I was invited to help out and exhibit there. The above photos are a collage of my work that was exhibited, alongside many other, more talented, photographers.
 
 <!--more-->
 
 ## While we were there, calligraphy
-I am always over-prepared, so my bag full of arts equipment, fountain pens, and pages of Tolkien's *Fellowship of the Ring* came in handy for an impromptu calligraphy demonstration for a friend's YouTube Channel. Here is the video, **[Darren's Calligraphy Skills](https://youtu.be/OsamqC3_Ed4)**:
+Always over-prepared, the old bag full of arts equipment, fountain pens, and pages of Tolkien's *Fellowship of the Ring* came in handy for an impromptu calligraphy demonstration for a friend's YouTube Channel. Here is the video, **[Darren's Calligraphy Skills](https://youtu.be/OsamqC3_Ed4)**:
 
 {{< youtube OsamqC3_Ed4 >}}
 
@@ -36,7 +36,7 @@ The [YEAST Scrap Store](https://yeastscrapstore.co.uk/) in Glastonbury, Somerset
 
 I was invited along by a good friend and colleague who was running some workshops at the DWP Job Centre while I was doing my work placement there. 
 
-With the sunsetting of Engage Somerset, the art group has been handed over to the community to run, along with the walking group. The exhibition featured nature photography from the walking group, good food, speeches, promotional workshops and stimulating conversation.
+With the sunsetting of Engage Somerset, the art group has been handed over to the community to run, along with a walking group (and others!). The exhibition featured nature photography from the walking group, good food, speeches, promotional workshops and stimulating conversation.
 
 ## Cookie recipe
 I brought along a kind of fruit and nut cookie, based off a Mallorcan recipe for *carquinyolis* given me by one of my best friends. *My apologies, M., for butchering your recipe! Somehow, it still tastes nice.*

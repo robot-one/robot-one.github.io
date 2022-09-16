@@ -79,7 +79,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   favicon = "/favicons/favicon.ico"
 
   # true: load 3rd-party JS/CSS from CDN; false: load instead from local files
-	CDNJS = false
+  CDNJS = false
   # highlightjs = true
   # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
   # highlightjsCDN = "js/3p/highlight.min.js"
@@ -92,6 +92,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   topTags = true
   textButtons = true
   # textButtonsMini = false
+  textSocials = true
   
   # Error 404 Not Found page text
   error404Header = "Oops...You are lost in dream."

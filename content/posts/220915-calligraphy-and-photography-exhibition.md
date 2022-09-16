@@ -42,9 +42,9 @@ I was invited along by a good friend and colleague who was running some workshop
 With the sunsetting of Engage Somerset, the art group has been handed over to the community to run, along with a walking group (and others!). The exhibition featured nature photography from the walking group, good food, speeches, promotional workshops and stimulating conversation.
 
 ## Cookie recipe
-I brought along a kind of fruit and nut cookie, based off a Mallorcan recipe for *carquinyolis* given me by one of my best friends. *My apologies, M., for butchering your recipe! Somehow, it still tastes nice.*
+I brought along a kind of fruit and nut cookie, based off a Mallorcan recipe for *carquinyolis* given me by one of my best friends. *My apologies, M. for butchering your recipe! Somehow, it still tastes nice.*
 
-**Delicious photograph placeholder**
+{{< figure src="/img/carquinyolis.jpg" alt="Mallorcan carquinyolis" title="Mallorcan carquiyolis, baked for the exhibition" attr="by Darthagnon, original recipe M." >}}
 
 ### Dry ingredients:
 - 600g flour

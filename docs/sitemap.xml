@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://robot-one.github.io/categories/</loc>
+    <lastmod>2022-09-21T01:33:57+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/</loc>
+    <lastmod>2022-09-21T01:33:57+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/posts/</loc>
+    <lastmod>2022-09-21T01:33:57+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/</loc>
+    <lastmod>2022-09-21T01:33:57+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/categories/tech/</loc>
+    <lastmod>2022-09-21T01:33:57+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/posts/220921-last-modified-thankyou/</loc>
+    <lastmod>2022-09-21T01:33:57+01:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/webdev/</loc>
+    <lastmod>2022-09-21T01:33:57+01:00</lastmod>
+  </url><url>
     <loc>https://robot-one.github.io/tags/art/</loc>
     <lastmod>2022-09-15T16:44:08+01:00</lastmod>
   </url><url>
@@ -9,9 +30,6 @@
     <lastmod>2022-09-15T16:44:08+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/tags/calligraphy/</loc>
-    <lastmod>2022-09-15T16:44:08+01:00</lastmod>
-  </url><url>
-    <loc>https://robot-one.github.io/categories/</loc>
     <lastmod>2022-09-15T16:44:08+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/categories/cooking-and-recipes/</loc>
@@ -23,16 +41,7 @@
     <loc>https://robot-one.github.io/tags/food/</loc>
     <lastmod>2022-09-15T16:44:08+01:00</lastmod>
   </url><url>
-    <loc>https://robot-one.github.io/</loc>
-    <lastmod>2022-09-15T16:44:08+01:00</lastmod>
-  </url><url>
-    <loc>https://robot-one.github.io/posts/</loc>
-    <lastmod>2022-09-15T16:44:08+01:00</lastmod>
-  </url><url>
     <loc>https://robot-one.github.io/posts/220915-calligraphy-and-photography-exhibition/</loc>
-    <lastmod>2022-09-15T16:44:08+01:00</lastmod>
-  </url><url>
-    <loc>https://robot-one.github.io/tags/</loc>
     <lastmod>2022-09-15T16:44:08+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/tags/work/</loc>
@@ -66,9 +75,6 @@
     <lastmod>2022-08-01T01:24:13+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/tags/todo/</loc>
-    <lastmod>2022-08-01T01:24:13+01:00</lastmod>
-  </url><url>
-    <loc>https://robot-one.github.io/tags/webdev/</loc>
     <lastmod>2022-08-01T01:24:13+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/posts/220628-work-experience/</loc>
@@ -111,9 +117,6 @@
     <lastmod>2022-06-25T01:30:45+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/posts/220330-quick-notes-phone-security/</loc>
-    <lastmod>2022-06-25T01:30:45+01:00</lastmod>
-  </url><url>
-    <loc>https://robot-one.github.io/categories/tech/</loc>
     <lastmod>2022-06-25T01:30:45+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/tags/telephone/</loc>

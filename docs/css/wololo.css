@@ -15,13 +15,14 @@
     font-size: 2em;
 }
 
-#right {
+/* BUG: Youve duplicated this on wololo.html:27 */
+/*#right {
     background: url(/img/logos/wololo/wololo-right.png) right top no-repeat;
     width: 386px;
     padding: 0;
     float: right;
     height: 107px;
-}
+}*/
 #header #left {
     float: left;
     margin-left: -250px;
@@ -48,8 +49,8 @@ ul.linklist li {
     margin-right: 5px;
     font-size: 1.1em;
     line-height: 32px;*/
-    font-family: sans-serif;
-
+    font-family: sans-serif !important;
+    font-weight: bold;
   }
 
 .linklist a:link {
@@ -79,7 +80,7 @@ a.forumtitle {
   background-image: url(/img/logos/wololo/centerbg.png);
   background-size: contain;
   border-radius: 5px;
-  color: #FFFFFF;
+  /*color: #FFFFFF;*/
 }
 
 .bottom-right {

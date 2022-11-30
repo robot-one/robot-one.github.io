@@ -3,16 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://robot-one.github.io/categories/</loc>
-    <lastmod>2022-09-21T01:33:57+01:00</lastmod>
+    <lastmod>2022-11-30T00:21:17+00:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/categories/cooking-and-recipes/</loc>
+    <lastmod>2022-11-30T00:21:17+00:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/</loc>
-    <lastmod>2022-09-21T01:33:57+01:00</lastmod>
+    <lastmod>2022-11-30T00:21:17+00:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/posts/</loc>
-    <lastmod>2022-09-21T01:33:57+01:00</lastmod>
+    <lastmod>2022-11-30T00:21:17+00:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/recipes-food-diet/</loc>
+    <lastmod>2022-11-30T00:21:17+00:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/romanian/</loc>
+    <lastmod>2022-11-30T00:21:17+00:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/posts/221129-sarmale-recipe/</loc>
+    <lastmod>2022-11-30T00:21:17+00:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/tags/</loc>
-    <lastmod>2022-09-21T01:33:57+01:00</lastmod>
+    <lastmod>2022-11-30T00:21:17+00:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/categories/tech/</loc>
     <lastmod>2022-09-21T01:33:57+01:00</lastmod>
@@ -30,9 +42,6 @@
     <lastmod>2022-09-15T16:44:08+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/tags/calligraphy/</loc>
-    <lastmod>2022-09-15T16:44:08+01:00</lastmod>
-  </url><url>
-    <loc>https://robot-one.github.io/categories/cooking-and-recipes/</loc>
     <lastmod>2022-09-15T16:44:08+01:00</lastmod>
   </url><url>
     <loc>https://robot-one.github.io/categories/events-and-seasons/</loc>
@@ -110,9 +119,6 @@
     <loc>https://robot-one.github.io/tags/hacks/</loc>
     <lastmod>2022-06-25T01:30:45+01:00</lastmod>
   </url><url>
-    <loc>https://robot-one.github.io/tags/romanian/</loc>
-    <lastmod>2022-06-25T01:30:45+01:00</lastmod>
-  </url><url>
     <loc>https://robot-one.github.io/tags/security-research/</loc>
     <lastmod>2022-06-25T01:30:45+01:00</lastmod>
   </url><url>
@@ -169,5 +175,7 @@
   </url><url>
     <loc>https://robot-one.github.io/posts/160529-story/</loc>
     <lastmod>2022-03-16T01:18:00+00:00</lastmod>
+  </url><url>
+    <loc>https://robot-one.github.io/tags/vegan/vegetarian/</loc>
   </url>
 </urlset>

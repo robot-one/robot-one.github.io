@@ -68,8 +68,13 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   # github = ""
   # stackoverflow = ""
   # codepen = ""
+  
+  # Add IndieAuth endpoint here, as per https://indieweb.org/IndieAuth#How_to
+  # indieauth = "https://indieauth.com/auth"
 
   siteStartYear = 2016
+  # Required for "Site last updated" footer
+  # commit = "https://github.com/<username>/<siterepo.github.io>/commits/"
 
   favicon = "/favicons/favicon.ico"
 
@@ -87,6 +92,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   # topTags = true
   # textButtons = true
   # textButtonsMini = false
+  textSocials = true
   
   # Error 404 Not Found page text
   error404Header = "Oops...You are lost in dream."

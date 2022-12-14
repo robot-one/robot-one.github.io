@@ -3,7 +3,7 @@ socials = [
   { href = "https://facebook.com/joebloggs", target="_blank", icon = "facebook", title = "Facebook" },
   { href = "https://messenger.com/joebloggs", target="_blank", icon = "comment", title = "Facebook Messenger" },
   { href = "https://vk.com/joebloggs", target="_blank", icon = "vk", title = "VKontakte" },
-  { href = "https://mastodon.social/@JoeBloggs", target="_blank", icon = "hashtag", title = "Mastodon" },
+  { href = "https://mastodon.social/@JoeBloggs", target="_blank", icon = "icon-mastodon", title = "Mastodon" },
   { href = "https://old.reddit.com/r/joebloggssubreddit/", target="_blank", icon = "android", title = "SubReddit" },
   { href = "https://www.reddit.com/u/joebloggs/", target="_blank", icon = "android", title = "Reddit User Account" },
   { href = "https://www.youtube.com/channel/UCuAXFkgsw1L7xaCfnd5JJOw", target="_blank", icon = "youtube", title = "YouTube" }, # Recommended to use channel hash (case-sensitive, unchangeable) rather than username (changeable)
@@ -32,6 +32,8 @@ socials = [
   { href = "https://discord.gg/HP5sQ6c", target="_blank", icon = "discord", title = "Discord Server" }, # Discord cannot link to username/start chat, only server invites
   { href = "skype:joebloggs420", target="_blank", icon = "skype", title = "Skype" }, # You can specify skype:joebloggs420?chat or ?call to initiate chat or call
   { href = "mailto:joebloggs@email.com", target="_blank", icon = "envelope", title = "Email" },
+  # The following config is preferred for email, as most people do not have mailto: set up correctly
+  { href = "mailto:joebloggs@email.com", target="_blank", icon = "envelope", title = "joebloggs@email.com" },
   { href = "https://codepen.io/joebloggs", target="_blank", icon = "codepen", title = "Codepen" },
   { href = "tox:56A1ADE4B65B86BCD51CC73E2CD4E542179F47959FE3E0E21B4B0ACDADE51855D34D34D37CB5", target="_blank", icon = "lock", title = "qTox" }, # 
   { href = "tel:1-408-555-5555", target="_blank", icon = "phone", title = "Telephone" }, # Only works on mobile

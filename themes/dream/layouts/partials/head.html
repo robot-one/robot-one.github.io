@@ -5,6 +5,11 @@
 <!-- Site permissions policy: Degoogle: Opt out of Google FLoC, src: https://github.dihe.moe/Donearm/donearm.github.com/commit/31892e66c27c2b0b251185ef5c38b9762703cf36 -->
 <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
 
+<!-- IndieAuth, see https://indieweb.org/, https://indieauth.com/ -->
+{{ if isset .Site.Params "indieauth" }}
+<link rel="authorization_endpoint" href="{{ .Site.Params.indieauth }}">
+{{ end }}
+
 <!-- Progressive Web App (PWA) -->
 <link rel="manifest" href="/manifest.json">
 <link rel="serviceworker" href="/sw.html">

@@ -70,6 +70,9 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   # github = "darthagnon"
   # stackoverflow = "12589363/darth-agnon"
   # codepen = ""
+  
+  # Add IndieAuth endpoint here, as per https://indieweb.org/IndieAuth#How_to
+  indieauth = "https://indieauth.com/auth"
 
   siteStartYear = 2016
   # Required for "Site last updated" footer

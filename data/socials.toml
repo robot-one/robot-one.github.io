@@ -13,8 +13,9 @@ socials = [
   { href = "https://hearthis.at/darren-de-lima/", target="_blank", icon = "microphone", title = "HeartThis.at" },
   { href = "https://www.last.fm/user/Darthagnon", target="_blank", icon = "lastfm", title = "Last.fm" },
   { href = "https://matrix.to/#/@darthagnon:matrix.org", target="_blank", icon = "at", title = "Matrix" },
+  { href = "https://fosstodon.org/@Darthagnon", target="_blank", icon = "icon-mastodon", title = "Mastodon" },
   # { href = "https://app.element.io/#/room/#joebloggsroom:matrix.org", target="_blank", icon = "at", title = "Matrix" },
-  { href = "mailto:[d]arren.delima@yahoo.co.uk", target="_blank", icon = "envelope", title = "Email 1" },
-  { href = "mailto:[d]arthagnone@gmail.com", target="_blank", icon = "envelope", title = "Email 2" },
+  { href = "mailto:[d]arren.delima@yahoo.co.uk", target="_blank", icon = "envelope", title = "[d]arren.delima@yahoo.co.uk" },
+  { href = "mailto:[d]arthagnone@gmail.com", target="_blank", icon = "envelope", title = "[d]arthagnone@gmail.com" },
   { href = "tox:FB920C0CA40B3B44FDBE03790408DFE0DB9216DA63D47AFDEEBAE6BBE39EE221256408CEBD8B", target="_blank", icon = "lock", title = "qTox" }
 ]

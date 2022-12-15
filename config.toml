@@ -6,7 +6,7 @@ theme = ["dream", "darths-hugo-shortcodes"]
 
 
 # copyright = ""
-# googleAnalytics = ""
+googleAnalytics = "G-DW6SMYW172"
 # disqusShortname = ""
 # enableRobotsTXT = true
 

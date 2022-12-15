@@ -15,7 +15,7 @@ socials = [
   { href = "https://matrix.to/#/@darthagnon:matrix.org", target="_blank", icon = "at", title = "Matrix" },
   { href = "https://fosstodon.org/@Darthagnon", target="_blank", icon = "icon-mastodon", title = "Mastodon" },
   # { href = "https://app.element.io/#/room/#joebloggsroom:matrix.org", target="_blank", icon = "at", title = "Matrix" },
-  { href = "mailto:[d]arren.delima@yahoo.co.uk", target="_blank", icon = "envelope", title = "[d]arren.delima@yahoo.co.uk" },
-  { href = "mailto:[d]arthagnone@gmail.com", target="_blank", icon = "envelope", title = "[d]arthagnone@gmail.com" },
+  { href = "mailto:darren.delima@yahoo.co.uk", target="_blank", icon = "envelope", title = "darren.delima@yahoo.co.uk" },
+  { href = "mailto:darthagnone@gmail.com", target="_blank", icon = "envelope", title = "darthagnone@gmail.com" },
   { href = "tox:FB920C0CA40B3B44FDBE03790408DFE0DB9216DA63D47AFDEEBAE6BBE39EE221256408CEBD8B", target="_blank", icon = "lock", title = "qTox" }
 ]

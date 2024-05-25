@@ -126,3 +126,56 @@ h1.ui.header .sub.header.master {
 /*body.dark .markdown-body .highlight pre {
   background: #222 !important;
 }*/
+
+/* Dark mode for tables. This syntax is cursed; I don't know why it works, it should not, but it does, and changing it breaks the style. */
+
+/* prevent horizontal scrollbars in tables when rendered as card */
+table {
+  width: 100%;
+  overflow:unset !important;
+}
+
+.ui.inverted.segment table td {
+    border-color: #a1a1a1;
+}
+
+/* Table header */
+table th {
+	border: initial !important;
+	/* background-color: none !important; /* #7ea47e, #6c8b6c */ */
+	padding: 10px;
+	font-size: 1.28571429em;
+}
+
+
+.ui.inverted.segment tr:nth-child(odd) {
+  background-color: #1b1c1d;
+}
+
+.ui.inverted.segment tr:nth-child(even) {
+  background-color: #333333;
+}
+
+/* Interactive table hover row highlight */
+tr:hover {
+	background-color: #e3eaf0!important;
+}
+
+.ui.inverted.segment tr:hover {
+	background-color: #666666 !important;
+}
+
+/* Fix tags page */
+
+.ui.inverted.segment .ui.header {
+	color: #FFFFFF;
+}
+
+/* from https://github.com/YourOnly-One/site.yuki/blob/main/assets/css/youronly.one-head-04-local.css */
+/* .dream-single .cover .cover-img { */
+	/* height: 400px; */
+	/* background-position: top; */
+/* } */
+/* figure { */
+	/* text-align: center; */
+/* } */

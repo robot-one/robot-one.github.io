@@ -10,3 +10,5 @@ Friends of mine are welcome to contribute their knowledge to the site! Here's a 
 | Avatar | Username | Bio |
 | --- | --- | --- |
 | <img src="/img/authors/Ionicannon.jpg" alt="Avatar, guest Ionicannon" style="border-radius: 50%; display: block;"> | Ionicannon | My niece, with an Eastern European connection and a growing interest in literature and art. |
+| Test | Test | Test |
+| Pohh | Pyglet | Tigger |

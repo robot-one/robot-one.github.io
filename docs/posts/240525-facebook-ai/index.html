@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Facebook will use our data for training generative AI models | Of Machines and Men</title>
+
+    
+<link href="/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+
+<meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+
+
+
+<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+
+
+
+<link rel="manifest" href="/manifest.json">
+<link rel="serviceworker" href="/sw.html">
+
+
+
+<meta name="author" content="Darthagnon" />
+<meta name="description" content="Looks like those copypasta stories about Facebook&amp;rsquo;s rights to your information were right all along.
+" />
+
+
+
+<meta name="generator" content="Hugo 0.115.0">
+
+<link rel="canonical" href="https://robot-one.github.io/posts/240525-facebook-ai/" />
+
+
+<meta property="og:title" content="Facebook will use our data for training generative AI models" />
+<meta property="og:description" content="Looks like those copypasta stories about Facebook&rsquo;s rights to your information were right all along." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://robot-one.github.io/posts/240525-facebook-ai/" /><meta property="og:image" content="https://robot-one.github.io/"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-05-25T19:10:42+01:00" />
+<meta property="article:modified_time" content="2024-05-25T19:10:42+01:00" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://robot-one.github.io/"/>
+
+<meta name="twitter:title" content="Facebook will use our data for training generative AI models"/>
+<meta name="twitter:description" content="Looks like those copypasta stories about Facebook&rsquo;s rights to your information were right all along."/>
+
+
+
+
+	
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CGP1Q20XRY"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-CGP1Q20XRY', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+<link rel="stylesheet" href="/css/3p/semantic.min@2.4.2.css" />
+
+<link rel="stylesheet" href="/css/icomoon.css" />
+
+  <link rel="stylesheet" href="/css/3p/OverlayScrollbars.min@1.13.0.css" />
+  
+
+<link rel="stylesheet" href="/css/3p/github-markdown.min@4.0.0.css" />
+
+<link rel="stylesheet" href="/css/site.css" />
+
+<style>
+  .ui.header a:not(.item, .ui.button):hover {
+    text-decoration: underline;
+  }
+
+  
+  a:not(.item, .ui.button) {
+    color: seagreen !important;
+  }
+  
+
+  
+  .inverted a:not(.item, .ui.button) {
+     color: darkseagreen !important;
+  }
+  
+
+  
+  body.default {
+    
+    background-color: #f7f7f7;
+    
+
+    
+    background-image: url(/img/background.jpg);
+    
+  }
+  
+
+  
+  body.dark {
+    
+    background-color: black;
+    
+
+    
+    background-image: url(/img/background-dark.jpg);
+    
+  }
+  
+</style>
+
+
+    
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+    
+    <style>
+      .markdown-body img {
+      background-color: initial !important;
+    }
+    </style>
+  </head>
+
+  <body class="default">
+    
+<nav class="ui secondary menu dream-menu dream-nav">
+
+  <a class="item dream-flip-toggle" title="About" alt="About">
+    <i class="large link question circle icon"></i>
+    
+	<div class="desktop-visible">
+    &nbsp;&nbsp;About
+	</div>
+    
+  </a>
+  <a class="item" href="https://robot-one.github.io/" title="Home" alt="Home">
+    <i class="large link home icon"></i>
+      
+      <div class="desktop-visible">
+      &nbsp;&nbsp;Home
+      </div>
+      
+  </a>
+  
+  <a class="item" title="Theme" alt="Theme" onclick="themeSwitch(event)">
+    <i class="large link icon theme-switch"></i>
+    
+	<div class="desktop-visible">
+    &nbsp;&nbsp;Theme
+	</div>
+    
+  </a>
+  
+  
+  <a class="item" title="Search" alt="Search" onclick="toggleSearch(event)">
+    <i class="large link search icon"></i>
+    
+	<div class="desktop-visible">
+    &nbsp;&nbsp;Search
+	</div>
+    
+  </a>
+  
+  
+      
+      <a class="item" href="/posts">
+        <i class="large archive icon" title="Archives" alt="Archives"></i>
+        
+		<div class="desktop-visible">
+        &nbsp;&nbsp;Archives
+		</div>
+        
+      </a>
+      
+      <a class="item" href="/categories">
+        <i class="large th list icon" title="Categories" alt="Categories"></i>
+        
+		<div class="desktop-visible">
+        &nbsp;&nbsp;Categories
+		</div>
+        
+      </a>
+      <a class="item" href="/tags">
+        <i class="large tags icon" title="Tags" alt="Tags"></i>
+        
+		<div class="desktop-visible">
+        &nbsp;&nbsp;Tags
+		</div>
+        
+      </a>
+  
+  
+  <a class="item" href="/index.xml" title="Subscribe!" alt="Subscribe!">
+    <i class="large link rss icon"></i>
+    
+	<div class="desktop-visible">
+    &nbsp;&nbsp;Subscribe!
+	</div>
+    
+  </a>
+  
+  
+</nav>
+
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          <div class="dream-max-width">
+            
+<div class="ui relaxed centered grid dream-grid dream-grid-single">
+  
+  
+  
+  
+
+  
+  <aside class="sixteen wide mobile sixteen wide tablet three wide computer column dream-single-aside">
+    
+    <div class="ui segment toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-copypasta">The Copypasta</a></li>
+    <li><a href="#in-case-facebook-deletes-it">In case Facebook deletes it</a>
+      <ul>
+        <li><a href="#object-to-your-information-being-used-for-ai-at-metahttpswwwfacebookcomhelpcontact6359191084165019"><a href="https://www.facebook.com/help/contact/6359191084165019">Object to Your Information Being Used for AI at Meta</a></a></li>
+      </ul>
+    </li>
+    <li><a href="#end-note">End note</a></li>
+  </ul>
+</nav>
+    </div>
+    
+
+    
+  </aside>
+  
+  <div class="sixteen wide mobile sixteen wide tablet ten wide computer column markdown-body dream-single" id="dream-save-post-as-img">
+    <section class="ui segment">
+      <header>
+        <h1 class="ui large header">Facebook will use our data for training generative AI models<span class="sub header">
+            <span class="left"><img class="ui avatar image" src="/img/authors/Darthagnon.jpg" alt="avatar" />
+              
+                
+                  <a href="https://robot-one.github.io" target="_blank">Darthagnon</a>
+                
+              
+
+              | 
+  
+    Saturday, 25 May, 2024
+  
+
+
+
+              | 5 minutes read
+
+              
+              | Last updated
+                
+  
+    Saturday, 25 May, 2024
+  
+
+
+              
+		
+            
+			
+               <p>
+		     	  
+		     		<i class="th list icon" title="Categories" alt="Categories"></i>
+		     			<a href="/categories/">[Tech]</a>
+		     			&nbsp;
+		     	  
+		
+                
+	<span class="dream-tags">
+                	<i class="tags icon" title="Tags" alt="Tags"></i>
+                	
+                		<a class="ui label button" href="/tags/conspiracy">#Conspiracy</a>
+                		&nbsp;
+                	
+                		<a class="ui label button" href="/tags/news">#News</a>
+                		&nbsp;
+                	
+	</span>
+                
+				
+              </p>
+						  
+			  
+            </span>
+
+            
+            <span class="dream-share">
+  <a href="#" class="save-as-image" title="Save as image" onclick="savePostAsImg()">
+    <i class="save icon" alt="Save as image"></i>
+  </a>
+  <a href="https://twitter.com/intent/tweet?text=Facebook%20will%20use%20our%20data%20for%20training%20generative%20AI%20models&url=https%3a%2f%2frobot-one.github.io%2fposts%2f240525-facebook-ai%2f" title="Twitter">
+    <i class="twitter icon" alt="Twitter"></i>
+  </a>
+  <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2frobot-one.github.io%2fposts%2f240525-facebook-ai%2f" title="Facebook">
+    <i class="facebook icon" alt="Facebook"></i>
+  </a>
+  <a href="https://t.me/share/url?url=https%3a%2f%2frobot-one.github.io%2fposts%2f240525-facebook-ai%2f&text=Facebook%20will%20use%20our%20data%20for%20training%20generative%20AI%20models" title="Telegram">
+    <i class="telegram icon" alt="Telegram"></i>
+  </a>
+</span>
+
+            
+          </span>
+        </h1>
+      </header>
+
+      <article class="main">
+        
+        <img class="cover" src="/img/facebook-ai-article.png" />
+        
+
+        <p>Looks like those copypasta stories about Facebook&rsquo;s rights to your information were right all along.</p>
+<p>Today, I got a notification that they&rsquo;re planning to role out AI features and will train it on &ldquo;Information you’ve shared on our Products and services&rdquo;, i.e. all photos, captions, messages, etc. we&rsquo;ve ever sent on Facebook.</p>
+<p>They have a page called &ldquo;Object to Your Information Being Used for AI at Meta&rdquo;; I recommend reading it and objecting:</p>
+<p><a href="https://www.facebook.com/help/contact/6359191084165019">https://www.facebook.com/help/contact/6359191084165019</a></p>
+<p>I sent them the following as an objection:</p>
+<blockquote>
+<p>I do not want Facebook/Meta to use any of my information for AI training. I own all usage rights to my photos/videos/written text, and do not grant Facebook/Meta or related enterprises the rights to use them for AI-related purposes, including and not limited to training, aggregation, etc.</p>
+</blockquote>
+<p>I received the following just now from Facebook:</p>
+<figure><img src="/img/Facebook%20Objection%20Accepted%2025052024.png"
+         alt="Facebook response" height="500"/><figcaption>
+            <p>Facebook has opted my stuff out of their GenAI&rsquo;s training data</p>
+        </figcaption>
+</figure>
+
+<p>I recommend you do the same.</p>
+<p>Cheers, Mark Zuckerberg.</p>
+<figure><img src="/img/Zuck%20Likes%20What%20He%20Sees.gif"
+         alt="Mark Zuckerberg funny GIF" height="300"/>
+</figure>
+
+<h2 id="the-copypasta">The Copypasta</h2>
+<p>You&rsquo;ve probably seen a version of the following nonsense posted at some point by older relatives if you have a Facebook account:</p>
+<blockquote>
+<p>Don’t forget tomorrow starts the new Facebook (aka&hellip;new name, META) rule where they can use your photos. Don&rsquo;t forget the Deadline is today!!!</p>
+<p>I do not give Facebook or any entities associated with Facebook permission to use my pictures, information, messages or posts, both past and future. With this statement, I give notice to Facebook it is strictly forbidden to disclose, copy, distribute, or take any other action against me based on this profile and/or its contents. The information: The violation of privacy can be punished by law</p>
+<p>NOTE: Facebook is now a public entity. All members must post a note like this.</p>
+<p>If you prefer, you can copy and paste this version. If you do not publish a statement at least once it will be tacitly allowing the use of your photos, as well as the information contained in the profile status updates.</p>
+<p>DO NOT SHARE. Copy and paste.</p>
+<p>Their new algorithm chooses the same few people - about 25 - who will read your posts. Therefore: Hold your finger down anywhere in this post and &ldquo;copy&rdquo; will pop up. Click &ldquo;copy&rdquo;. Then go to your page, start a new post and put your finger anywhere in the blank field. &ldquo;Paste&rdquo; will pop up and click paste This will bypass the system.</p>
+</blockquote>
+<p>It is a meme. Posting that on your timeline does nothing, other than keep the game going.</p>
+<p>However, now that ChatGPT and other generative artificial intelligence (GenAI) models are becoming commonplace and are all the rage among the tech cultists of Silicon Valley, a lot of the big corps are wanting to make their own. Hence Facebook jumping on the bandwagon.</p>
+<p>Facebook has always been a creepy company. It tracks user activity on non-Facebook websites via cookies for advertising purposes <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>; Apple made an attempt to stop this on its iPhones in iOS 14.5 <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. It is a descendant of Facemash, a hot girl ranking website written by Mark Zuckerberg while studying at Harvard <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>. It is written with content-feed algorithms that are designed to be addictive <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>.</p>
+<h2 id="in-case-facebook-deletes-it">In case Facebook deletes it</h2>
+<p>In case Facebook deletes its opt-out page, or changes the wording, here is what it said around 8pm 25 May 2024. It is difficult to archive the page to the <a href="https://web.archive.org/web/20240524094205/https://www.facebook.com/help/contact/712876720715583">Internet Archive</a> or <a href="https://archive.today/sxSoD">Archive.today</a>, because it requires a Facebook login to read what it says.</p>
+<h3 id="object-to-your-information-being-used-for-ai-at-metahttpswwwfacebookcomhelpcontact6359191084165019"><a href="https://www.facebook.com/help/contact/6359191084165019">Object to Your Information Being Used for AI at Meta</a></h3>
+<blockquote>
+<p>You have the right to object to Meta using the information you’ve shared on our Products and services to develop and improve AI at Meta. You can submit this form to exercise that right.</p>
+<p>AI at Meta is our collection of generative AI features and experiences, like Meta AI and AI Creative Tools, along with the models that power them.</p>
+<p>Information you’ve shared on our Products and services could be things like:</p>
+<ul>
+<li>Posts</li>
+<li>Photos and their captions</li>
+<li>The messages you send to an AI</li>
+</ul>
+<p>We do not use the content of your private messages with friends and family to train our AIs.</p>
+<p>We’ll review objection requests in accordance with relevant data protection laws. If your request is honored, it will be applied going forward.</p>
+<p>We may still process information about you to develop and improve AI at Meta, even if you object or don’t use our Products and services. For example, this could happen if you or your information:</p>
+<ul>
+<li>Appear anywhere in an image shared on our Products or services by someone who uses them</li>
+<li>Are mentioned in posts or captions that someone else shares on our Products and services</li>
+</ul>
+<p>To learn more about the other rights you have related to information you’ve shared on Meta Products and services, visit our <a href="https://www.facebook.com/privacy/policy">Privacy Policy</a>.</p>
+<p>Country of residence: (Required)</p>
+<p>Email address (Required)</p>
+<p>Please tell us how this processing impacts you. (Required)</p>
+<p>Please provide any additional information that could help us review your objection. (Optional)</p>
+</blockquote>
+<h2 id="end-note">End note</h2>
+<p>I originally started this website (well, [it&rsquo;s predecessor https://robot-one.blogspot.co.uk/) because I was posting interesting things I was doing to Facebook, and then realised, &ldquo;Wait, I&rsquo;m contributing to someone else&rsquo;s software ecosystem.&rdquo; I didn&rsquo;t trust Facebook, and wanted control over the projects and photos I shared. I had avoided making an account all through high-school and only signed up in 2012ish. (Can you believe Facebook was once popular with teenagers?!)</p>
+<p>This website is now running off Github, and Microsoft is probably training its Copilot GenAI off <a href="https://github.com/robot-one/robot-one.github.io">the source code</a>. But that&rsquo;s computer code, for machines and now by machines. Not too bad. I can&rsquo;t think of any non-creepy uses Facebook might have for our data by training its GenAI on it.</p>
+<p><strong>Note that I will never use GenAI to write articles, stories, or art for this website.</strong> I pride myself as something of a creative artist, writer and designer. I may use GenAI to help with the website code, which is meant to be machine-readable, but nothing intended for humans on this website will ever be made with ChatGPT or related software.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.wired.com/story/ways-facebook-tracks-you-limit-it/">https://www.wired.com/story/ways-facebook-tracks-you-limit-it/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.consumerreports.org/electronics-computers/privacy/how-facebook-tracks-you-even-when-youre-not-on-facebook-a7977954071/">https://www.consumerreports.org/electronics-computers/privacy/how-facebook-tracks-you-even-when-youre-not-on-facebook-a7977954071/</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://www.macrumors.com/2020/12/16/apple-responds-to-facebook-tracking-criticism/">https://www.macrumors.com/2020/12/16/apple-responds-to-facebook-tracking-criticism/</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://www.metro.us/everything-to-know-about-facemash-the-site-zuckerberg-created-in-college-to-rank-hot-women/">https://www.metro.us/everything-to-know-about-facemash-the-site-zuckerberg-created-in-college-to-rank-hot-women/</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://www.bbc.co.uk/news/articles/cv2d2j8y38lo">https://www.bbc.co.uk/news/articles/cv2d2j8y38lo</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="https://www.abc.net.au/news/2024-05-17/eu-says-instagram-and-facebook-are-too-addictive-in-probe/103859680">https://www.abc.net.au/news/2024-05-17/eu-says-instagram-and-facebook-are-too-addictive-in-probe/103859680</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+      </article>
+    </section>
+
+    
+
+    
+
+    
+  </div>
+</div>
+
+
+            <footer class="ui basic center aligned segment" style="background-color: transparent;">
+              
+              <p>© 2016 - 2024 Of Machines and Men.
+              
+              
+                Site last updated: <a href="https://github.com/robot-one/robot-one.github.io/commits/" target="_blank">25 May 2024</a>
+              
+              </p>
+              <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+
+              
+              <p>Site is a work-in-progress</p>
+              
+            </footer>
+          </div>
+        </section>
+        <section class="back">
+          <div class="dream-max-width">
+            <header class="ui basic very padded segment dream-header">
+  
+	<div class="ui small image">
+			<img src="/img/RobotOne.png" alt="avatar" />
+		</div>
+	
+  
+
+  <div class="content">
+    <h1 class="ui extra-large header master">Of Machines and Men<span class="sub header master">Handcrafted heroes and legends<br>
+		<noscript style="color: red;">Please enable JavaScript for this website to work properly.</noscript>
+      </span>
+    </h1>
+
+
+
+    
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+
+    
+
+    
+
+    
+
+    <div class="tags-with-dropdown">
+      <div class="ui accordion">
+        <div class="title">
+          <div class="ui horizontal list">
+            <a class="item dropdown" href="#">
+              <i class="chevron right icon dropdown-icon"></i>
+            </a>
+          </div>
+          <div class="dream-tags">
+          
+          
+          
+            <a class="ui label" href="/categories/art/" title="Art">
+              #Art
+            </a>
+          
+          
+          
+            <a class="ui label" href="/categories/audiobooks/" title="Audiobooks">
+              #Audiobooks
+            </a>
+          
+          
+          
+            <a class="ui label" href="/categories/cooking-and-recipes/" title="Cooking and Recipes">
+              #Cooking and Recipes
+            </a>
+          
+          
+          
+            <a class="ui label" href="/categories/events-and-seasons/" title="Events and Seasons">
+              #Events and Seasons
+            </a>
+          
+          
+          
+            <a class="ui label" href="/categories/legacy/" title="Legacy">
+              #Legacy
+            </a>
+          
+          
+          
+            <a class="ui label" href="/categories/multimedia/" title="Multimedia">
+              #Multimedia
+            </a>
+          
+          
+          
+            <a class="ui label" href="/categories/ongoing-articles/" title="Ongoing Articles">
+              #Ongoing Articles
+            </a>
+          
+          
+          
+            <a class="ui label" href="/categories/stories/" title="Stories">
+              #Stories
+            </a>
+          
+          
+          
+            <a class="ui label" href="/categories/tech/" title="Tech">
+              #Tech
+            </a>
+          
+          </div>
+        </div>
+        <div class="content">
+    
+          <div class="dream-tags" style="margin-left: 1.5rem;">
+          
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    
+
+    
+  </div>
+</header>
+
+
+<div class="ui relaxed grid dream-grid dream-back">
+  
+  
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">Guest Authors</div>
+      <p>Friends of mine are welcome to contribute their knowledge to the site! Here&rsquo;s a list of those who have contributed:</p>
+<table>
+<thead>
+<tr>
+<th>Avatar</th>
+<th>Username</th>
+<th>Bio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/img/authors/Ionicannon.jpg" alt="Avatar, guest Ionicannon" style="border-radius: 50%; display: block;"></td>
+<td>Ionicannon</td>
+<td>My niece, with an Eastern European connection and a growing interest in literature and art.</td>
+</tr>
+<tr>
+<td>Test</td>
+<td>Test</td>
+<td>Test</td>
+</tr>
+<tr>
+<td>Pohh</td>
+<td>Pyglet</td>
+<td>Tigger</td>
+</tr>
+</tbody>
+</table>
+
+    </article>
+  </div>
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">My other sites</div>
+      <ul>
+<li><a href="https://dragonsnotincluded.github.io">dragonsnotincluded.github.io</a> - Website for my friend&rsquo;s D&amp;D podcast.</li>
+<li><a href="https://greater-life.github.io/">greater-life.github.io</a>, an experimental platform for advertising local events, groups, jobs and resources.</li>
+<li><a href="https://github.com/Mesh-Infrasoft">Mesh Infrasoft on GitHub</a> - My friends started an IT company and I&rsquo;ve joined them.</li>
+<li><a href="https://robot-one.blogspot.co.uk">robot-one.blogspot.co.uk</a>, my defunct first Blogger site from 2016-17</li>
+</ul>
+
+    </article>
+  </div>
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">Servers</div>
+      <p>I enjoy systems administration, so I manage a few servers and websites.</p>
+<h2 id="my-lan">My LAN</h2>
+<p>Chances are if we are on the same <strong>Local Area Network (LAN)</strong>, I&rsquo;m serving something! These are served from my Raspberry Pi homeserver, and currently only accessible on my home network. For your convenience, here are the services you can access (you&rsquo;ll have to ask me for the passwords in person; no way I&rsquo;m putting them in cleartext on the web):</p>
+<ul>
+<li><a href="http://raspberrypi:8080/">qBittorrent server</a> - a torrent client with which we can remotely download public domain media via the Bittorrent, without leaving our PCs on for hours. <a href="https://www.qbittorrent.org/download.php">Homepage</a></li>
+<li><a href="http://raspberrypi:8081/">filebrowser</a> - access downloaded torrents or files stored on the homeserver&rsquo;s Network Attached Storage (NAS) via any web browser. Looks like Google Drive, but is fully self-hosted. <a href="https://github.com/filebrowser/filebrowser">GitHub Repository</a></li>
+<li><a href="http://raspberrypi:80">Aria2Ng server</a> - Don&rsquo;t feel like leaving your PC on all night for that big download? Remotely download media to the NAS, by torrents and many other protocols, too. <a href="https://github.com/mayswind/AriaNg">GitHub Repository</a></li>
+<li><a href="http://raspberrypi:8082/">WireguardUI</a> - still not fully functional, a frontend for the Wireguard VPN protocol, so that eventually I can host my own VPN. <a href="https://github.com/EmbarkStudios/wg-ui">GitHub Repository</a></li>
+<li><a href="http://raspberrypi:81/">AdGuard Home</a> - <strong>[Currently Disabled]</strong> Network-wide ad blocker and DNS server. Not something the end user needs to worry about, save that they won&rsquo;t see advertising. <a href="https://github.com/AdguardTeam/AdGuardHome">GitHub Repository</a></li>
+<li><a href="http://raspberrypi:8083/">Navidrome</a> - <strong>[Currently Disabled]</strong> Spotify replacement, but fully self-hosted with my own music. <a href="https://www.navidrome.org/">Homepage</a></li>
+<li>Samba (SMB) access to the 500GB NAS is also enabled. You can access it from <code>Windows Explorer &gt;&gt; My Computer (This PC) &gt;&gt; Add a network location</code> or the equivalent on MacOS/iOS/Linux/Android.</li>
+<li>SSH (command line) and SFTP (filesystem) access are also enabled, accessible via the appropriate clients, e.g. <a href="https://winscp.net/">WinSCP</a>, <a href="https://www.openssh.com/">OpenSSH</a>, <a href="https://github.com/PowerShell/Win32-OpenSSH/releases">OpenSSH Windows</a> or <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a></li>
+</ul>
+<h2 id="your-lan">Your LAN</h2>
+<p>These are served from my PC, and you can access them as long as we&rsquo;re both connected.</p>
+<ul>
+<li><a href="http://vortigern:80">Cerberus FTP Server</a> - file server.</li>
+<li><a href="https://lanxchange.com/">LanXChange</a> - Apple Airdrop alternative. We can both run the clients and share individual files easily between PC, Mac, Linux, Android.</li>
+<li><a href="http://vortigern:8081">filebrowser</a> - I also occasionally run filebrowser to turn my PC into a &ldquo;Google Drive&rdquo;.</li>
+</ul>
+
+    </article>
+  </div>
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">Contact</div>
+      <p>Questions? Comments? You can reach me on the social media linked in the <strong>Socials</strong> box. Feel free to drop me a message. I&rsquo;ll try to get back to you shortly. <strong>To prevent spam, I have added [square brackets] to some of my socials; if you&rsquo;re not a robot, you can click the links and remove the [brackets].</strong></p>
+<p>You can email me via <code>darthagnone [at] gmail [dot] com</code>.</p>
+
+    </article>
+  </div>
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">src</div>
+      <p>Site source code is available on <a href="https://github.com/robot-one/robot-one.github.io">GitHub</a>, as well as offline backups on my home systems. Snapshots are also available on <a href="https://web.archive.org/web/*/robot-one.github.io">Archive.org</a> and <a href="https://archive.today/3lBgJ">Archive.today</a>. The site uses 2 themes, <a href="https://github.com/Darthagnon/hugo-theme-dream">Hugo Theme Dream</a> and <a href="https://github.com/Darthagnon/hugo-easy-gallery">Hugo Easy Gallery</a>, and is built with the <a href="https://gohugo.io/">Hugo</a> static site generator.</p>
+
+    </article>
+  </div>
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">WHOIS running this site?</div>
+      <img src="/img/authors/Darthagnon.jpg" alt="Avatar, admin Darthagnon" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto;" height="180">
+<p>Hello! The site admin is Darthagnon.</p>
+<p>This is my blog and technical portfolio, where I seek to inform, entertain, and share my handicrafts and knowledge with you. I like to create robot &ldquo;heroes&rdquo; from recycled materials, write legends and draw pictures of them. To keep good old machines running for a long time - without puppet strings attached - you could also use some of my tips and tricks for computer software and hardware. Or cook yourself a delicious vegan recipe or two, gathered from across the globe. I&rsquo;ll also wax lyrical about esoteric literature and nerdy hobbies on occasion.</p>
+<h2 id="whats-with-the-username">What&rsquo;s with the username?</h2>
+<p>I like to go by the Sith version of the 4th Musketeer, D&rsquo;Artagnan. It&rsquo;s obviously not my real name.</p>
+
+    </article>
+  </div>
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">Friends</div>
+      <p>Friends&rsquo; blogs and people I follow, work with or recommend:</p>
+<h2 id="hacking-and-piracy">Hacking and Piracy</h2>
+<ul>
+<li><img src="/img/logos/FitGirl_LV (cropped-icon-192x192).jpg" height="16"> <a href="https://fitgirl-repacks.site/">FitGirl Repacks</a>, the ONLY official site for FitGirl Repacks. Despite the odd name, it&rsquo;s the best source for DRM-free videogame installers these days. See also <img src="/img/logos/MSQ Repacks.png" height="16"> <a href="https://masquerade.site/">Masquerade</a>, who is an upcoming repacker.</li>
+<li><img src="/img/logos/CSRINRU.ico" height="16"> <a href="https://cs.rin.ru/">CS.RIN.RU</a>, the Famous Russian Forum for DRM-free videogames. Information on every game on Steam/GOG/Epic and beyond, inhabited by knowledgeable users and freelance hackers.</li>
+<li><img src="/img/logos/wololo2.png" height="16"> <a href="https://wololo.net/">Wololo.net</a>; the Playstation Portable hacking blog that first got me interested in computer science and security research back in 2013ish. The <a href="https://wololo.net/talk/">/talk forum</a> used to be a vibrant community full of hobby programmers. There&rsquo;s also the separate <a href="https://wololo.net/forum/">Wagic forum</a>, which was focused on developing the digital card game <a href="https://github.com/WagicProject/wagic/releases">Wagic: the Homebrew?!</a>. Run by <a href="https://twitter.com/frwololo">@frwololo</a></li>
+<li><img src="/img/logos/CK's Tech News.jpg" height="16"> <a href="https://chef-koch.bearblog.dev/">CHEF-KOCH&rsquo;s Technology News</a>, a technology news outlet (also on <a href="https://twitter.com/CKsTechNews">Twitter</a>, <a href="https://old.reddit.com/r/CKsTechNews/">Reddit</a> and <a href="https://opencollective.com/cks-technology-news#about">other social media</a>) where CHEF-KOCH reports on the cutting edge of technology in a concise, readable and helpful manner. Head and shoulders above all other tech news these days.</li>
+</ul>
+<h2 id="lifestyle-improved">Lifestyle, improved</h2>
+<ul>
+<li><img src="/img/logos/Explorium logo 2016-17_300x300.jpg" height="16"> <a href="https://www.explorium.co.uk/">Explorium</a>; my former employers, a growth-mindset-focused creative learning centre and training provider for Primary and Secondary school children. We did some incredible work there, and helped many kids discover their creative potential. Check them out!</li>
+<li><img src="/img/logos/Howl's project logo.png" height="16"> <a href="https://www.howlsproject.com/">Howl&rsquo;s Project</a>; based in Turkey, a Studio Ghibli anime-themed fashion store run by a friend of mine.</li>
+<li><a href="https://www.instagram.com/adrianablancfit/">Adriana Blanc Fitness</a>, personal training and lifestyle tips by a good friend and classmate from Bath and Spain.</li>
+<li><a href="https://www.instagram.com/horrington_handmade_soaps/">Horrington Handmade Soaps</a>, an artisan soaps and luxury cosmetics brand, handmade by my neighbours in Somerset.</li>
+</ul>
+<h2 id="writing--literature-for-the-reader">Writing &amp; Literature for the Reader</h2>
+<ul>
+<li><a href="https://suffer.substack.com/">Suffer FM on Substack</a> is a philosophy, motivational and writing blog by my brother Kevin.</li>
+<li><strong>Colin Smith</strong>, an author, photographer and friend of mine writes at:
+<ul>
+<li><a href="https://www.facebook.com/ChalkRoadPress">Chalk Road Press</a></li>
+<li><a href="https://sinistersquirrel.wixsite.com/sinistersquirrel/">Sinister Squirrel&rsquo;s Luminarium</a></li>
+<li><a href="https://bardoftweeddale.wordpress.com/">Bard of Tweeddale</a></li>
+</ul>
+</li>
+<li><img src="/img/logos/Dragons Not Included favicon.png" height="16"> <a href="https://dragonsnotincluded.podbean.com/">Dragons Not Included</a>, a D&amp;D and roleplaying podcast run by my best friend. <em>Join the crew of the Dragons Not Included podcast as they roll, crit and laugh their way through the Wrath of the Righteous tabletop role playing adventure.</em> Subscribe via <a href="https://feed.podbean.com/dragonsnotincluded/feed.xml">RSS</a> or anywhere else podcasts are syndicated.</li>
+</ul>
+<h2 id="technical-services">Technical services</h2>
+<ul>
+<li><a href="https://devmanjohn.com/">John Phillips</a> is a professional web developer, entrepeneur and a good friend and guru of mine. We are collaborating on a project called&hellip;</li>
+<li><a href="https://www.flukeydigital.com/">Flukey Digital</a>, a  premium web development company. Launching soon!</li>
+<li><a href="http://www.meshinfrasoft.com/">MeshInfrasoft</a> is a business data and IT services company based in India and run by a close friend of mine. I am collaborating with him on this project.</li>
+</ul>
+<h2 id="artists-i-know">Artists I know</h2>
+<ul>
+<li><strong>Katie Groves Illustration</strong> (<a href="https://www.facebook.com/katiegrovesillustration">Facebook</a>, <a href="https://www.instagram.com/katiejeez/">Instagram</a>) does professional illustration and photorealistic portraits</li>
+<li><a href="https://www.instagram.com/ollyjordanartist/">Olly Jordan</a> studied graphic design and does poster artwork</li>
+<li><a href="https://www.instagram.com/jess_parnell_arty/">Jess Parnell</a> does post-modern and performance art</li>
+<li><a href="https://www.instagram.com/natasha_douglas_art/">Natasha Douglas Art</a> does oil painting and metalwork</li>
+<li><a href="https://www.instagram.com/off_ren/">OFF-REN CERAMICS</a> absolutely fantastic anime-inspired ceramics by Renatella</li>
+<li><a href="https://www.instagram.com/jennys_photography_world">Jenny&rsquo;s Photography</a> does professional photography, based near Bath, UK</li>
+<li><a href="https://www.instagram.com/capturedbyzt/">Captured by Zack Thomas</a> offers professional photoshoots and drone photography, based around London</li>
+<li><a href="https://www.instagram.com/rowankatyofficial/">Rowan Katy</a> has a degree in professional photography, and works from Cornwall and Devon</li>
+</ul>
+<h2 id="musicians">Musicians</h2>
+<ul>
+<li><a href="https://www.thedrystones.co.uk/">The Drystones</a> do country and folk music</li>
+<li><a href="https://www.alexgardenmusic.co.uk/">Alex Garden</a>, professional violinist and member of the Drystones, performs solo</li>
+<li><a href="https://www.youtube.com/@SeanFountain">Sean Fountain</a> composes electronic music as <a href="https://soundcloud.com/seanfountain">Arcade Haze</a> and is an all round great guy</li>
+</ul>
+
+    </article>
+  </div>
+  
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment">
+      <div class="ui medium header">Social Links</div>
+      <nav class="ui secondary menu dream-menu dream-socials">
+  
+  <a class="item" href="/index.xml">
+    <i class="large rss square icon" title="RSS"></i>
+	 <div> &nbsp;&nbsp;RSS </div> 
+  </a>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+    <a class="item" href="https://twitter.com/DJdeLima" rel="me" target="_blank">
+      <i class="large twitter icon" title="Twitter"></i> 
+	  <div> &nbsp;&nbsp;Twitter </div>
+    </a>
+  
+    <a class="item" href="https://facebook.com/darren.delima.5" rel="me" target="_blank">
+      <i class="large facebook icon" title="Facebook"></i> 
+	  <div> &nbsp;&nbsp;Facebook </div>
+    </a>
+  
+    <a class="item" href="https://messenger.com/darren.delima.5" rel="me" target="_blank">
+      <i class="large comment icon" title="Facebook Messenger"></i> 
+	  <div> &nbsp;&nbsp;Facebook Messenger </div>
+    </a>
+  
+    <a class="item" href="https://www.youtube.com/channel/UCt2Vp1qaoT_YoWfuPH_Mi5g" rel="me" target="_blank">
+      <i class="large youtube icon" title="YouTube"></i> 
+	  <div> &nbsp;&nbsp;YouTube </div>
+    </a>
+  
+    <a class="item" href="https://instagram.com/darthagnon" rel="me" target="_blank">
+      <i class="large instagram icon" title="Instagram"></i> 
+	  <div> &nbsp;&nbsp;Instagram </div>
+    </a>
+  
+    <a class="item" href="https://www.linkedin.com/in/darrendelima" rel="me" target="">
+      <i class="large linkedin icon" title="Linkedin"></i> 
+	  <div> &nbsp;&nbsp;Linkedin </div>
+    </a>
+  
+    <a class="item" href="https://github.com/darthagnon" rel="me" target="_blank">
+      <i class="large github icon" title="GitHub"></i> 
+	  <div> &nbsp;&nbsp;GitHub </div>
+    </a>
+  
+    <a class="item" href="https://gitlab.com/Darthagnon" rel="me" target="_blank">
+      <i class="large gitlab icon" title="GitLab"></i> 
+	  <div> &nbsp;&nbsp;GitLab </div>
+    </a>
+  
+    <a class="item" href="https://drive.google.com/drive/folders/blablabla?usp=sharing" rel="me" target="_blank">
+      <i class="large download icon" title="Google Drive/Cloud"></i> 
+	  <div> &nbsp;&nbsp;Google Drive/Cloud </div>
+    </a>
+  
+    <a class="item" href="https://t.me/darthagnon" rel="me" target="_blank">
+      <i class="large telegram icon" title="Telegram"></i> 
+	  <div> &nbsp;&nbsp;Telegram </div>
+    </a>
+  
+    <a class="item" href="https://www.robot-one.blogspot.co.uk" rel="me" target="_blank">
+      <i class="large chain icon" title="Old website"></i> 
+	  <div> &nbsp;&nbsp;Old website </div>
+    </a>
+  
+    <a class="item" href="https://hearthis.at/darren-de-lima/" rel="me" target="_blank">
+      <i class="large microphone icon" title="HeartThis.at"></i> 
+	  <div> &nbsp;&nbsp;HeartThis.at </div>
+    </a>
+  
+    <a class="item" href="https://www.last.fm/user/Darthagnon" rel="me" target="_blank">
+      <i class="large lastfm icon" title="Last.fm"></i> 
+	  <div> &nbsp;&nbsp;Last.fm </div>
+    </a>
+  
+    <a class="item" href="https://matrix.to/#/@darthagnon:matrix.org" rel="me" target="_blank">
+      <i class="large at icon" title="Matrix"></i> 
+	  <div> &nbsp;&nbsp;Matrix </div>
+    </a>
+  
+    <a class="item" href="https://fosstodon.org/@Darthagnon" rel="me" target="_blank">
+      <i class="large icon-mastodon icon" title="Mastodon"></i> 
+	  <div> &nbsp;&nbsp;Mastodon </div>
+    </a>
+  
+    <a class="item" href="mailto:darren.delima@yahoo.co.uk" rel="me" target="_blank">
+      <i class="large envelope icon" title="darren.delima@yahoo.co.uk"></i> 
+	  <div> &nbsp;&nbsp;darren.delima@yahoo.co.uk </div>
+    </a>
+  
+    <a class="item" href="mailto:darthagnone@gmail.com" rel="me" target="_blank">
+      <i class="large envelope icon" title="darthagnone@gmail.com"></i> 
+	  <div> &nbsp;&nbsp;darthagnone@gmail.com </div>
+    </a>
+  
+    <a class="item" href="tox:FB920C0CA40B3B44FDBE03790408DFE0DB9216DA63D47AFDEEBAE6BBE39EE221256408CEBD8B" rel="me" target="_blank">
+      <i class="large lock icon" title="qTox"></i> 
+	  <div> &nbsp;&nbsp;qTox </div>
+    </a>
+  
+  
+  
+</nav>
+
+    </article>
+  </div>
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+  </div>
+
+  
+</div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="/js/3p/jquery.min@3.6.0.js"></script>
+    
+    <script src="/js/3p/semantic.min@2.4.2.js"></script>
+    
+
+    
+    <div class="ui segment" id="dream-search">
+  <div class="ui search">
+    <div class="ui transparent input">
+      <input class="prompt" type="text" placeholder="Search" />
+    </div>
+    <div class="results"></div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $.getJSON('https:\/\/robot-one.github.io\//index.json', function (data) {
+      $('.ui.search').search({
+        source: data,
+        searchFields: ['title'],
+        showNoResults: false,
+      })
+    })
+  })
+</script>
+<script src="/js/search.js"></script>
+
+    
+
+    
+
+    <script>
+  window.background = "#f7f7f7"
+  window.defaultDark =  null 
+  window.backgroundDark = "black"
+  window.backgroundImageDark = "/img/background-dark.jpg"
+  window.darkNav =  null 
+  window.maxTags =  12 
+  window.hasTwitterEmbed =  null 
+  window.fixedNav =  true 
+
+  if (window.hasTwitterEmbed) {
+    
+    window.twttr = (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {}
+      if (d.getElementById(id)) return t
+      js = d.createElement(s)
+      js.id = id
+      js.src = 'https://platform.twitter.com/widgets.js'
+      fjs.parentNode.insertBefore(js, fjs)
+
+      t._e = []
+      t.ready = function (f) {
+        t._e.push(f)
+      }
+
+      return t
+    })(document, 'script', 'twitter-wjs')
+  }
+</script>
+
+  <script src="/js/3p/jquery.overlayScrollbars.min@1.13.1.js"></script>
+    <script src="/js/main.js"></script>
+  
+<script src="/js/header.js"></script>
+<script src="/js/theme.js"></script>
+
+    
+
+
+
+<script src="/js/scrollToTop.js"></script>
+
+
+
+<script src="/js/3p/html2canvas.min@1.0.0-rc.1.js"></script>
+
+  <script src="/js/post.js" defer></script>
+
+
+    
+
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-CGP1Q20XRY', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+  </body>
+</html>
